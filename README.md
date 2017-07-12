@@ -1,13 +1,18 @@
 # IVCT Runtime
 
-This is example configuration for a IVCT deployment.
+This is example configuration for a recommended IVCT deployment structure. The required elements are:
+- A folder for the SuT configuration files
+- A folder for the badge definition files
+- A folder for the test suite run time environments
+- The test engine, configured for the installed test suites
+- The LogSink component to generate the test result reports
+- The ActiveMQ component
+- The Apache Tomcat installation including the IVCT GUI web applications
 
-1) Set the global variable IVCT_HOME is used for the test engine bat-file to configure the test suites.
+The IVCT user intefaces (UI and GUI) are using a properties file to configure the first three folders, like
 
-2) The Badges folder contains the definitions files for the interoperability requirements of the existing badges
-
-3) The IVCTsut folder contains the system under test configurations and the results from the test cases within the capability badges.
-
-4) The TC folder contains a typical configuration to execute the test engine
+IVCT_SUT_HOME_ID=C:\\IVCT_Runtime\\IVCTsut
+IVCT_TS_HOME_ID=C:\\IVCT_Runtime\\Badges
+IVCT_BADGE_HOME_ID=C:\\IVCT_Runtime\\Badges
 
 More information can be found in the wiki (https://github.com/MSG134/IVCT_Runtime/wiki)
