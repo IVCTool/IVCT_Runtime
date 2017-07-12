@@ -68,14 +68,14 @@ set CMD_LINE_ARGS=%$
 
 :execute
 @rem Setup the command line
-set IVCT_TS_HOME=C:\Projekte\MSG134
+set IVCT_TS_HOME=C:\Projekte\MSG134\IVCT_Runtime\TestSuites
 set RTI=C:\Program Files\prti1516e\lib\prti1516e.jar
-set ETC_FRA_Common=C:\Projekte\MSG134\IVCT_Runtime\Badges\ETC_FRA_Common-0.0.1\lib\*
-set TS_CS_Verification=C:\Projekte\MSG134\IVCT_Runtime\Badges\TS_CS_Verification-0.0.1\lib\*
-set TS_HLA_Declaration=C:\Projekte\MSG134\IVCT_Runtime\Badges\TS_HLA_Declaration-0.0.1\lib\*
-set TS_HLA_Object=C:\Projekte\MSG134\IVCT_Runtime\Badges\TS_HLA_Object-0.0.1\lib\*
-set TS_HLA_Services=C:\Projekte\MSG134\IVCT_Runtime\Badges\TS_HLA_Services-0.0.1\lib\*
-set HelloWorld=C:\Projekte\MSG134\IVCT_Runtime\Badges\TS_HelloWorld-0.3.1\lib\*
+set ETC_FRA_Common=%IVCT_TS_HOME%\ETC_FRA_Common-0.0.1\lib\*
+set TS_CS_Verification=%IVCT_TS_HOME%\TS_CS_Verification-0.0.1\lib\*
+set TS_HLA_Declaration=%IVCT_TS_HOME%\TS_HLA_Declaration-0.0.1\lib\*
+set TS_HLA_Object=%IVCT_TS_HOME%\TS_HLA_Object-0.0.1\lib\*
+set TS_HLA_Services=%IVCT_TS_HOME%\TS_HLA_Services-0.0.1\lib\*
+set HelloWorld=%IVCT_TS_HOME%\TS_HelloWorld-0.3.1\lib\*
 
 
 set CLASSPATH=%APP_HOME%\lib\TC-0.4.0.jar;%RTI%;%APP_HOME%\lib\MessagingHelpers-0.4.0.jar;%APP_HOME%\lib\slf4j-api-1.7.10.jar;%APP_HOME%\lib\json-simple-1.1.1.jar;%APP_HOME%\lib\activemq-client-5.12.0.jar;%APP_HOME%\lib\logback-classic-1.1.3.jar;%APP_HOME%\lib\logback-core-1.1.3.jar;%APP_HOME%\lib\jcl-over-slf4j-1.7.10.jar;%APP_HOME%\lib\jul-to-slf4j-1.7.10.jar;%APP_HOME%\lib\log4j-over-slf4j-1.7.10.jar;%APP_HOME%\lib\junit-4.10.jar;%APP_HOME%\lib\geronimo-jms_1.1_spec-1.1.1.jar;%APP_HOME%\lib\hawtbuf-1.11.jar;%APP_HOME%\lib\geronimo-j2ee-management_1.1_spec-1.0.1.jar;%APP_HOME%\lib\hamcrest-core-1.1.jar;%ETC_FRA_Common%;%TS_CS_Verification%;%TS_HLA_Declaration%;%TS_HLA_Object%;%TS_HLA_Services%;%HelloWorld%
