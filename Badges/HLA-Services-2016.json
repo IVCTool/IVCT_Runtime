@@ -3,8 +3,8 @@
 	"name" 			: 	"HLA Services Test 2016",
 	"description"	:	"This badge verifies that the federate uses only the services specified in its SOM.",
 	"graphics"		:	"/some/icon.png",
-	"packageName"	:	"fr.....",
 	"tsRunTimeFolder":	"TS_HLA_Services-0.0.1/bin",
+	"tsLibTimeFolder":	"TS_HLA_Services-0.0.1/lib",
 	"dependency"	:	[],
 	"requirements"	:	[
 		{
