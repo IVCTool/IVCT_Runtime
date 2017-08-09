@@ -1,5 +1,6 @@
 {
 	"id" 			: 	"HLA-Object-2016",
+	"version"		:	"0.0.2",
 	"name" 			: 	"HLA Object-2016 Test 2016",
 	"description"	:	"This badge verifies that the federate sends and receives only the objects and interactions specified in its SOM.",
 	"graphics"		:	"/some/icon.png",

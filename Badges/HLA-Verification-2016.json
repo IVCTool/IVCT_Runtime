@@ -1,5 +1,6 @@
 {
 	"id" 			: 	"HLA-Verification-2016",
+	"version"		:	"0.0.2",
 	"name" 			: 	"HLA Verification Test 2016",
 	"description"	:	"This test case is equivalent to the FCTT_NG configuration verification step.",
 	"graphics"		:	"/some/icon.png",

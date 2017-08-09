@@ -1,5 +1,6 @@
 {
 	"id" 			: 	"HLA-BASE-2016",
+	"version"		:	"0.0.2",
 	"name" 			: 	"HLA Basic Test 2016",
 	"description"	:	"Basic CS/SOM and Best Practices compliance",
 	"graphics"		:	"/some/icon.png",

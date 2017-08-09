@@ -1,5 +1,6 @@
 {
 	"id" 			: 	"HLA-Declaration-2016",
+	"version"		:	"0.0.2",
 	"name" 			: 	"HLA Declaration Test 2016",
 	"description"	:	"This badge verifies that the federate only publishes and subscribes objects, interactions and attributes specified in its SOM.",
 	"graphics"		:	"/some/icon.png",

@@ -1,5 +1,6 @@
 {
 	"id" 			: 	"HLA-Services-2016",
+	"version"		:	"0.0.2",
 	"name" 			: 	"HLA Services Test 2016",
 	"description"	:	"This badge verifies that the federate uses only the services specified in its SOM.",
 	"graphics"		:	"/some/icon.png",
