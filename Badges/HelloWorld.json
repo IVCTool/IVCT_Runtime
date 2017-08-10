@@ -4,8 +4,8 @@
 	"name" 			: 	"HelloWorld Tutorial Badge",
 	"description"	:	"This is a simple example for capability badge to test the compliance of an federate to the hello world federation.",
 	"graphics"		:	"/some/icon.png",
-	"tsRunTimeFolder":	"TS_HelloWorld-0.4.1/TS_HelloWorld/bin",
-	"tsLibTimeFolder":	"TS_HelloWorld-0.4.1/TS_HelloWorld/lib",
+	"tsRunTimeFolder":	"TS_HelloWorld-0.4.1/bin",
+	"tsLibTimeFolder":	"TS_HelloWorld-0.4.1/lib",
 	"tsJarURLs"		:	["file:/C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.0/lib/TS_HelloWorld-0.4.0.jar"],
 	"dependency"	:	["HLA-BASE-2016"],
 	"requirements"	:	[
