@@ -1,6 +1,5 @@
 {
-	"id" 			: 	"HelloWorld",
-	"version"		:	"0.4.1",
+	"id" 			: 	"HelloWorld-0.4.1",
 	"name" 			: 	"HelloWorld Tutorial Badge",
 	"description"	:	"This is a simple example for capability badge to test the compliance of an federate to the hello world federation.",
 	"graphics"		:	"/some/icon.png",

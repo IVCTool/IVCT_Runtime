@@ -2,5 +2,5 @@
 	"id" 			: 	"hw_iosb",
 	"description"	:	"HelloWorld system under federate for IVCT demonstration",
 	"vendor"		:	"Fraunhofer IOSB",
-	"badge"			:	["HelloWorld"] 
+	"badge"			:	["HelloWorld-0.4.1"] 
 }
