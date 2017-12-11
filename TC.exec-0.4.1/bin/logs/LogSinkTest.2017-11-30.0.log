@@ -1,0 +1,1448 @@
+2017-11-30 09:38:32,054 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 09:38:32,090 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 09:38:32,093 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 09:38:32,093 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 09:38:32,094 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 09:38:32,121 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 09:38:32,122 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 09:38:32,169 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 09:38:32,171 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 09:38:32,172 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 09:38:32,173 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:38:32,174 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 09:38:32,176 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:38:32,177 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 09:38:32,178 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:38:32,179 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 09:38:32,180 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 09:38:32,183 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 09:38:32,184 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 09:38:32,599 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 09:38:32,601 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:38:32,602 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 09:38:32,603 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 09:38:32,603 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 09:38:32,604 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 09:38:32,695 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 09:38:32,696 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:38:32,698 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 09:38:32,698 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 09:38:32,699 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:38:32,700 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 09:38:32,700 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 09:38:34,327 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:38:34,328 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 09:38:34,329 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 09:38:34,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:38:34,331 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 09:38:34,331 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 09:38:34,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:38:34,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 09:38:34,334 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 09:52:56,565 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 09:52:56,567 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 09:52:56,570 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 09:52:56,570 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 09:52:56,572 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 09:52:56,573 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 09:52:56,574 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 09:52:56,576 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 09:52:56,579 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 09:52:56,581 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 09:52:56,582 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:52:56,583 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 09:52:56,585 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:52:56,586 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 09:52:56,587 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:52:56,590 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 09:52:56,592 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 09:52:56,593 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 09:52:56,594 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 09:52:56,677 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 09:52:56,678 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:52:56,679 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 09:52:56,680 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 09:52:56,680 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 09:52:56,681 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 09:52:56,704 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 09:52:56,705 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:52:56,706 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 09:52:56,707 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 09:52:56,708 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:52:56,708 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 09:52:56,708 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 09:52:57,596 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:52:57,597 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 09:52:57,598 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 09:52:57,599 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:52:57,600 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 09:52:57,601 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 09:52:57,601 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:52:57,602 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 09:52:57,603 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 09:58:28,952 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 09:58:28,953 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 09:58:28,955 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 09:58:28,955 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 09:58:28,956 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 09:58:28,958 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 09:58:28,959 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 09:58:28,960 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 09:58:28,961 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 09:58:28,962 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 09:58:28,965 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:58:28,966 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 09:58:28,968 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:58:28,969 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 09:58:28,970 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:58:28,972 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 09:58:28,975 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 09:58:28,980 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 09:58:28,980 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 09:58:29,039 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 09:58:29,040 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:58:29,041 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 09:58:29,041 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 09:58:29,042 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 09:58:29,043 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 09:58:29,071 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 09:58:29,072 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:58:29,074 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 09:58:29,074 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 09:58:29,075 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:58:29,076 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 09:58:29,077 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 09:58:29,763 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:58:29,764 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 09:58:29,765 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 09:58:29,766 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:58:29,767 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 09:58:29,768 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 09:58:29,769 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 09:58:29,769 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 09:58:29,770 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 10:01:06,319 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 10:01:06,320 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 10:01:06,323 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 10:01:06,324 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 10:01:06,325 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 10:01:06,326 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 10:01:06,327 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 10:01:06,328 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 10:01:06,328 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 10:01:06,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 10:01:06,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 10:01:06,333 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 10:01:06,335 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 10:01:06,336 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 10:01:06,338 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 10:01:06,339 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 10:01:06,339 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 10:01:06,343 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 10:01:06,344 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 10:01:06,396 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 10:01:06,397 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 10:01:06,398 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 10:01:06,399 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 10:01:06,399 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 10:01:06,400 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 10:01:06,418 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 10:01:06,419 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 10:01:06,420 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 10:01:06,421 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 10:01:06,421 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 10:01:06,422 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 10:01:06,422 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 10:01:07,073 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 10:01:07,074 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 10:01:07,075 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 10:01:07,075 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 10:01:07,076 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 10:01:07,077 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 10:01:07,079 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 10:01:07,080 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 10:01:07,081 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 11:18:44,474 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 11:18:44,475 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 11:18:44,477 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 11:18:44,477 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 11:18:44,478 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 11:18:44,480 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 11:18:44,481 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 11:18:44,483 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 11:18:44,484 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 11:18:44,485 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 11:18:44,488 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:18:44,489 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 11:18:44,524 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:18:44,525 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 11:18:44,526 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:18:44,527 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 11:18:44,527 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 11:18:44,528 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 11:18:44,529 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 11:18:44,576 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 11:18:44,577 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:18:44,578 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 11:18:44,578 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 11:18:44,579 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 11:18:44,579 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 11:18:44,595 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 11:18:44,596 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:18:44,597 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 11:18:44,598 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 11:18:44,602 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:18:44,603 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 11:18:44,604 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 11:18:45,295 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:18:45,296 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 11:18:45,297 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 11:18:45,298 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:18:45,299 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 11:18:45,300 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 11:18:45,300 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:18:45,301 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 11:18:45,301 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 11:51:03,617 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 11:51:03,618 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 11:51:03,620 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 11:51:03,621 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 11:51:03,621 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 11:51:03,622 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 11:51:03,623 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 11:51:03,624 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 11:51:03,625 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 11:51:03,626 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 11:51:03,629 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:51:03,631 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 11:51:03,632 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:51:03,633 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 11:51:03,634 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:51:03,634 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 11:51:03,634 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 11:51:03,635 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 11:51:03,635 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 11:51:03,681 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 11:51:03,682 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:51:03,684 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 11:51:03,684 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 11:51:03,685 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 11:51:03,686 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 11:51:03,705 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 11:51:03,706 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:51:03,708 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 11:51:03,709 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 11:51:03,709 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:51:03,710 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 11:51:03,710 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 11:51:04,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:51:04,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 11:51:04,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 11:51:04,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:51:04,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 11:51:04,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 11:51:04,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:51:04,330 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 11:51:04,330 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 11:57:01,276 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 11:57:01,277 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 11:57:01,279 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 11:57:01,281 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 11:57:01,282 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 11:57:01,283 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 11:57:01,283 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 11:57:01,284 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 11:57:01,285 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 11:57:01,286 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 11:57:01,287 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:57:01,290 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 11:57:01,292 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:57:01,293 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 11:57:01,294 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:57:01,295 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 11:57:01,296 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 11:57:01,297 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 11:57:01,298 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 11:57:01,352 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 11:57:01,353 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:57:01,354 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 11:57:01,355 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 11:57:01,355 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 11:57:01,356 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 11:57:01,373 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 11:57:01,374 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:57:01,376 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 11:57:01,376 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 11:57:01,377 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:57:01,377 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 11:57:01,378 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 11:57:01,990 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:57:01,990 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 11:57:01,990 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 11:57:01,990 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:57:01,990 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 11:57:01,990 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 11:57:01,990 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:57:01,990 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 11:57:01,990 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 11:59:15,864 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 11:59:15,864 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 11:59:15,864 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 11:59:15,864 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 11:59:15,871 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 11:59:15,871 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 11:59:15,872 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 11:59:15,872 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 11:59:15,873 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 11:59:15,874 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 11:59:15,875 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:59:15,876 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 11:59:15,884 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:59:15,885 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 11:59:15,885 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:59:15,886 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 11:59:15,887 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 11:59:15,887 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 11:59:15,888 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 11:59:15,929 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 11:59:15,930 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:59:15,931 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 11:59:15,932 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 11:59:15,932 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 11:59:15,933 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 11:59:15,947 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 11:59:15,948 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:59:15,949 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 11:59:15,954 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 11:59:15,955 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:59:15,956 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 11:59:15,956 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 11:59:16,543 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:59:16,543 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 11:59:16,559 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 11:59:16,559 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:59:16,559 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 11:59:16,559 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 11:59:16,559 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 11:59:16,559 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 11:59:16,559 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:01:13,012 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 12:01:13,013 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 12:01:13,016 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:01:13,016 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 12:01:13,017 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 12:01:13,018 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 12:01:13,019 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 12:01:13,020 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 12:01:13,021 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 12:01:13,022 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 12:01:13,024 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:01:13,026 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 12:01:13,028 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:01:13,029 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 12:01:13,030 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:01:13,031 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 12:01:13,032 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 12:01:13,033 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 12:01:13,033 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 12:01:13,071 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 12:01:13,072 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:01:13,073 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 12:01:13,074 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 12:01:13,074 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 12:01:13,075 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 12:01:13,086 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 12:01:13,087 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:01:13,087 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 12:01:13,088 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 12:01:13,088 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:01:13,088 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 12:01:13,089 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 12:01:13,681 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:01:13,681 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 12:01:13,681 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 12:01:13,681 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:01:13,681 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 12:01:13,697 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 12:01:13,697 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:01:13,697 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 12:01:13,697 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:03:02,802 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 12:03:02,803 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 12:03:02,805 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:03:02,806 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 12:03:02,806 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 12:03:02,808 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 12:03:02,808 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 12:03:02,809 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 12:03:02,810 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 12:03:02,811 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 12:03:02,812 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:03:02,816 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 12:03:02,830 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:03:02,831 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 12:03:02,832 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:03:02,833 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 12:03:02,834 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 12:03:02,835 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 12:03:02,835 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 12:03:02,872 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 12:03:02,873 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:03:02,874 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 12:03:02,875 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 12:03:02,875 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 12:03:02,875 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 12:03:02,885 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 12:03:02,886 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:03:02,887 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 12:03:02,887 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 12:03:02,887 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:03:02,888 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 12:03:02,888 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 12:03:03,518 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:03:03,519 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 12:03:03,520 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 12:03:03,521 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:03:03,521 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 12:03:03,522 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 12:03:03,522 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:03:03,523 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 12:03:03,523 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:14:33,172 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 12:14:33,173 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 12:14:33,176 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:14:33,176 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 12:14:33,177 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 12:14:33,178 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 12:14:33,179 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 12:14:33,180 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 12:14:33,181 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 12:14:33,183 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 12:14:33,185 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:33,187 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 12:14:33,189 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:33,189 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 12:14:33,190 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:33,192 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 12:14:33,192 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 12:14:33,193 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 12:14:33,194 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 12:14:33,235 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 12:14:33,236 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:33,237 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 12:14:33,238 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 12:14:33,238 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 12:14:33,239 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 12:14:33,248 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 12:14:33,249 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:33,249 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 12:14:33,249 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 12:14:33,250 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:33,250 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 12:14:33,250 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 12:14:33,876 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:33,876 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 12:14:33,876 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 12:14:33,876 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:33,876 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 12:14:33,876 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 12:14:33,876 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:33,876 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 12:14:33,876 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:14:39,027 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_hla_services.TC_001_Services_Check
+2017-11-30 12:14:39,028 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HLA_Services-0.0.1/bin
+2017-11-30 12:14:39,030 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:14:39,030 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HLA_Services-0.0.1\bin
+2017-11-30 12:14:39,031 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_hla_services.TC_001_Services_Check
+2017-11-30 12:14:39,171 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Services_Check.java:79] TC_001_Services_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!hlaservices.servicesPublication!
+!hlaservices.FomSomComparison1!
+!hlaservices.FomSomComparison2!
+
+2017-11-30 12:14:39,172 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Services_Check: TEST CASE PREAMBLE
+2017-11-30 12:14:39,174 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Services_Check: !files.check.FOM.parse!
+2017-11-30 12:14:39,595 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Services_Check: !files.check.SOM.parse!
+2017-11-30 12:14:39,673 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Services_Check: !files.check.SOM_IN_FOM!
+2017-11-30 12:14:39,673 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Services_Check: !files.check.sharing!
+2017-11-30 12:14:41,126 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Services_Check: !files.check.rules!
+2017-11-30 12:14:43,173 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Services_Check.java:97] TC_001_Services_Check: !etc_fra.RtiConnected!
+2017-11-30 12:14:43,173 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Services_Check.java:98] TC_001_Services_Check: -----------------------------------------------------------
+
+2017-11-30 12:14:43,173 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Services_Check: TEST CASE BODY
+2017-11-30 12:14:43,173 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:410] TC_001_Services_Check: !etc_fra.sleepFor!
+2017-11-30 12:15:16,277 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: de.fraunhofer.iosb.tc_helloworld.TC0002
+2017-11-30 12:15:16,278 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.1/bin
+2017-11-30 12:15:16,282 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:15:16,282 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HelloWorld-0.4.1\bin
+2017-11-30 12:15:16,283 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: de.fraunhofer.iosb.tc_helloworld.TC0002
+2017-11-30 12:15:16,294 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:91] TC0002: 
+---------------------------------------------------------------------
+TEST PURPOSE
+Test if a HelloWorld federate answers with: "HelloWorld <country name>"
+upon receiving a "HelloWorld" interaction
+Repeat sending the "HelloWorld" interaction for several cycles and evaluate
+the interactions received
+---------------------------------------------------------------------
+
+2017-11-30 12:15:16,295 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC0002: TEST CASE PREAMBLE
+2017-11-30 12:15:17,029 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC0002: TEST CASE BODY
+2017-11-30 12:15:22,993 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:144] TC0002: TC INCONCLUSIVE Did not receive any HelloWorld message
+2017-11-30 12:15:22,995 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC0002: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:15:43,193 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Services_Check.java:116] TC_001_Services_Check: !etc_fra.wakeup!
+2017-11-30 12:15:43,255 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:310] TC_001_Services_Check: ###########################################################
+!resultsFile.header! "TestFederate"
+Date : 2017_11_30_12h15m43s
+
+!resultsFile.header.services.certificated!
+
+!resultsFile.header.explanations!
+###########################################################
+
+
+2017-11-30 12:15:43,255 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:313] TC_001_Services_Check:                                                              !resultsFile.headerColumns.services!                                              
+
+2017-11-30 12:15:43,271 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:316] TC_001_Services_Check: !content.root!
+    Federation management
+        Connection Lost                                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        List Federation Executions                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Report Federation Executions                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Register Federation Synchronization Point            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Synchronization Point Registration           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Announce Synchronization Point                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Synchronization Point Achieved                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Synchronized                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Federation Save                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Initiate Federate Save                               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federate Save Begun                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federate Save Complete                               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Saved                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Abort Federation Save                                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Federation Save Status                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Save Status Response                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Federation Restore                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Federation Restoration Request               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Restore Begun                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Initiate Federate Restore                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federate Restore Complete                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Restored                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Abort Federation Restore                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Federation Restore Status                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Restore Status Response                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Declaration management
+        Unpublish Object Class Attributes                    0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unpublish Interaction Class                          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unsubscribe Object Class Attributes                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unsubscribe Interaction Class                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Object management
+        Release Object Instance Name                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Reserve Multiple Object Instance Names               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Multiple Object Instance Names Reserved              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Release Multiple Object Instance Names               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Delete Object Instance                               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Local Delete Object Instance                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attributes In Scope                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attributes Out Of Scope                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Value Update                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Provide Attribute Value Update                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Transportation Type Change         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Attribute Transportation Type Change         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Attribute Transportation Type                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Report Attribute Transportation Type                 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Interaction Transportation Type Change       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Interaction Transportation Type Change       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Interaction Transportation Type                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Report Interaction Transportation Type               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Ownership management
+        Unconditional Attribute Ownership Divestiture        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Negotiated Attribute Ownership Divestiture           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Ownership Assumption               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Divestiture Confirmation                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Divestiture                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Acquisition Notification         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Acquisition                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Acquisition If Available         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Unavailable                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Ownership Release                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Release Denied                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Divestiture If Wanted            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Cancel Negotiated Attribute Ownership Divestiture    0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Cancel Attribute Ownership Acquisition               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Attribute Ownership Acquisition Cancellation 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Attribute Ownership                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Inform Attribute Ownership                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Is Attribute Owned By Federate                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Time management
+        Enable Time Regulation                               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Regulation Enabled                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Time Regulation                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Time Constrained                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Constrained Enabled                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Time Constrained                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Advance Request                                 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Advance Request Available                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Next Message Request                                 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Next Message Request Available                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Flush Queue                                          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Advance Grant                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Asynchronous Delivery                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Asynchronous Delivery                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query GALT                                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Logical Time                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query LITS                                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Modify Lookahead                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Lookahead                                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Retract                                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Retraction                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Change Attribute Order Type                          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Change Interaction Order Type                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Data distribution management
+        Create Region                                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Commit Region Modifications                          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Delete Region                                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Register Object Instance With Regions                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Associate Regions For Updates                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unassociate Regions For Updates                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Subscribe Object Class Attributes With Regions       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unsubscribe Object Class Attributes With Regions     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Subscribe Interaction Class With Regions             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unsubscribe Interaction Class With Regions           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Send Interaction With Regions                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Value Update With Regions          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Support Services
+        Get Automatic Resign Directive                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Set Automatic Resign Directive                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Federate Handle                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Federate Name                                    0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Object Class Name                                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Known Object Class Handle                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Object Instance Handle                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Attribute Name                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Update Rate Value                                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Update Rate Value For Attribute                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Interaction Class Name                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Parameter Name                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Order Type                                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Order Name                                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Transportation Type Handle                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Transportation Type Name                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Available Dimensions For Class Attribute         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Available Dimensions For Interaction Class       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Dimension Handle                                 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Dimension Name                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Dimension Upper Bound                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Dimension Handle Set                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Range Bounds                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Set Range Bounds                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Normalize Federate Handle                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Normalize Service Group                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Object Class Relevance Advisory Switch        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Object Class Relevance Advisory Switch       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Attribute Relevance Advisory Switch           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Attribute Relevance Advisory Switch          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Attribute Scope Advisory Switch               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Attribute Scope Advisory Switch              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Interaction Relevance Advisory Switch         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Interaction Relevance Advisory Switch        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Evoke Callback                                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Callbacks                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Callbacks                                    0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+
+2017-11-30 12:15:43,271 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:320] TC_001_Services_Check: ###########################################################
+!resultsFile.header! "TestFederate"
+Date : 2017_11_30_12h15m43s
+
+!resultsFile.header.services.notCertificated!
+
+!resultsFile.header.explanations!
+###########################################################
+
+
+2017-11-30 12:15:43,271 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:323] TC_001_Services_Check:                                                              !resultsFile.headerColumns.services!                                              
+
+2017-11-30 12:15:43,271 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:326] TC_001_Services_Check: !content.root!
+    Federation management
+        Connect                                              0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Disconnect                                           0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Create Federation Execution                          0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Destroy Federation Execution                         0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Join Federation Execution                            0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Resign Federation Execution                          0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+    Declaration management
+        Publish Object Class Attributes                      0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Publish Interaction Class                            0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Subscribe Object Class Attributes                    0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Subscribe Interaction Class                          0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Start Registration For Object Class                  0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Stop Registration For Object Class                   0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Turn Interactions On                                 0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Turn Interactions Off                                0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+    Object management
+        Reserve Object Instance Name                         0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Object Instance Name Reserved                        0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Register Object Instance                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Discover Object Instance                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Update Attribute Values                              0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Reflect Attribute Values                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Send Interaction                                     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Receive Interaction                                  0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Remove Object Instance                               0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Turn Updates On For Object Instance                  0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Turn Updates Off For Object Instance                 0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+    Support Services
+        Get Object Class Handle                              0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Get Object Instance Name                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Get Attribute Handle                                 0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Get Interaction Class Handle                         0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Get Parameter Handle                                 0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Evoke Multiple Callbacks                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+
+2017-11-30 12:15:43,286 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:153] TC_001_Services_Check: TC FAILED !hlaservices.invalidServices!
+2017-11-30 12:15:43,289 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Services_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:16:07,082 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_hla_services.TC_001_Services_Check
+2017-11-30 12:16:07,098 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HLA_Services-0.0.1/bin
+2017-11-30 12:16:07,098 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:16:07,098 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HLA_Services-0.0.1\bin
+2017-11-30 12:16:07,098 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_hla_services.TC_001_Services_Check
+2017-11-30 12:16:07,098 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Services_Check.java:79] TC_001_Services_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!hlaservices.servicesPublication!
+!hlaservices.FomSomComparison1!
+!hlaservices.FomSomComparison2!
+
+2017-11-30 12:16:07,098 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Services_Check: TEST CASE PREAMBLE
+2017-11-30 12:16:07,098 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Services_Check: !files.check.FOM.parse!
+2017-11-30 12:16:07,176 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Services_Check: !files.check.SOM.parse!
+2017-11-30 12:16:07,208 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Services_Check: !files.check.SOM_IN_FOM!
+2017-11-30 12:16:07,209 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Services_Check: !files.check.sharing!
+2017-11-30 12:16:08,082 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Services_Check: !files.check.rules!
+2017-11-30 12:16:08,738 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Services_Check.java:97] TC_001_Services_Check: !etc_fra.RtiConnected!
+2017-11-30 12:16:08,738 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Services_Check.java:98] TC_001_Services_Check: -----------------------------------------------------------
+
+2017-11-30 12:16:08,753 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Services_Check: TEST CASE BODY
+2017-11-30 12:16:08,753 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:410] TC_001_Services_Check: !etc_fra.sleepFor!
+2017-11-30 12:17:08,768 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Services_Check.java:116] TC_001_Services_Check: !etc_fra.wakeup!
+2017-11-30 12:17:08,768 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:310] TC_001_Services_Check: ###########################################################
+!resultsFile.header! "TestFederate"
+Date : 2017_11_30_12h17m08s
+
+!resultsFile.header.services.certificated!
+
+!resultsFile.header.explanations!
+###########################################################
+
+
+2017-11-30 12:17:08,768 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:313] TC_001_Services_Check:                                                              !resultsFile.headerColumns.services!                                              
+
+2017-11-30 12:17:08,784 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:316] TC_001_Services_Check: !content.root!
+    Federation management
+        Connection Lost                                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        List Federation Executions                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Report Federation Executions                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Register Federation Synchronization Point            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Synchronization Point Registration           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Announce Synchronization Point                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Synchronization Point Achieved                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Synchronized                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Federation Save                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Initiate Federate Save                               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federate Save Begun                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federate Save Complete                               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Saved                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Abort Federation Save                                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Federation Save Status                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Save Status Response                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Federation Restore                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Federation Restoration Request               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Restore Begun                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Initiate Federate Restore                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federate Restore Complete                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Restored                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Abort Federation Restore                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Federation Restore Status                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Federation Restore Status Response                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Declaration management
+        Unpublish Object Class Attributes                    0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unpublish Interaction Class                          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unsubscribe Object Class Attributes                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unsubscribe Interaction Class                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Object management
+        Release Object Instance Name                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Reserve Multiple Object Instance Names               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Multiple Object Instance Names Reserved              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Release Multiple Object Instance Names               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Delete Object Instance                               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Local Delete Object Instance                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attributes In Scope                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attributes Out Of Scope                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Value Update                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Provide Attribute Value Update                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Transportation Type Change         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Attribute Transportation Type Change         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Attribute Transportation Type                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Report Attribute Transportation Type                 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Interaction Transportation Type Change       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Interaction Transportation Type Change       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Interaction Transportation Type                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Report Interaction Transportation Type               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Ownership management
+        Unconditional Attribute Ownership Divestiture        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Negotiated Attribute Ownership Divestiture           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Ownership Assumption               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Divestiture Confirmation                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Divestiture                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Acquisition Notification         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Acquisition                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Acquisition If Available         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Unavailable                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Ownership Release                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Release Denied                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Attribute Ownership Divestiture If Wanted            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Cancel Negotiated Attribute Ownership Divestiture    0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Cancel Attribute Ownership Acquisition               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Confirm Attribute Ownership Acquisition Cancellation 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Attribute Ownership                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Inform Attribute Ownership                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Is Attribute Owned By Federate                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Time management
+        Enable Time Regulation                               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Regulation Enabled                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Time Regulation                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Time Constrained                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Constrained Enabled                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Time Constrained                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Advance Request                                 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Advance Request Available                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Next Message Request                                 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Next Message Request Available                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Flush Queue                                          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Time Advance Grant                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Asynchronous Delivery                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Asynchronous Delivery                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query GALT                                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Logical Time                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query LITS                                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Modify Lookahead                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Query Lookahead                                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Retract                                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Retraction                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Change Attribute Order Type                          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Change Interaction Order Type                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Data distribution management
+        Create Region                                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Commit Region Modifications                          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Delete Region                                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Register Object Instance With Regions                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Associate Regions For Updates                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unassociate Regions For Updates                      0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Subscribe Object Class Attributes With Regions       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unsubscribe Object Class Attributes With Regions     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Subscribe Interaction Class With Regions             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Unsubscribe Interaction Class With Regions           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Send Interaction With Regions                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Request Attribute Value Update With Regions          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+    Support Services
+        Get Automatic Resign Directive                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Set Automatic Resign Directive                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Federate Handle                                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Federate Name                                    0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Object Class Name                                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Known Object Class Handle                        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Object Instance Handle                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Attribute Name                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Update Rate Value                                0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Update Rate Value For Attribute                  0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Interaction Class Name                           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Parameter Name                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Order Type                                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Order Name                                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Transportation Type Handle                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Transportation Type Name                         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Available Dimensions For Class Attribute         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Available Dimensions For Interaction Class       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Dimension Handle                                 0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Dimension Name                                   0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Dimension Upper Bound                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Dimension Handle Set                             0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Get Range Bounds                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Set Range Bounds                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Normalize Federate Handle                            0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Normalize Service Group                              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Object Class Relevance Advisory Switch        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Object Class Relevance Advisory Switch       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Attribute Relevance Advisory Switch           0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Attribute Relevance Advisory Switch          0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Attribute Scope Advisory Switch               0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Attribute Scope Advisory Switch              0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Interaction Relevance Advisory Switch         0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Interaction Relevance Advisory Switch        0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Evoke Callback                                       0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Enable Callbacks                                     0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+        Disable Callbacks                                    0     R : NotExpectedNotSeen (D : NotExpectedNotSeen)
+
+2017-11-30 12:17:08,799 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:320] TC_001_Services_Check: ###########################################################
+!resultsFile.header! "TestFederate"
+Date : 2017_11_30_12h17m08s
+
+!resultsFile.header.services.notCertificated!
+
+!resultsFile.header.explanations!
+###########################################################
+
+
+2017-11-30 12:17:08,799 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:323] TC_001_Services_Check:                                                              !resultsFile.headerColumns.services!                                              
+
+2017-11-30 12:17:08,799 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Services_BaseModel.java:326] TC_001_Services_Check: !content.root!
+    Federation management
+        Connect                                              0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Disconnect                                           0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Create Federation Execution                          0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Destroy Federation Execution                         0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Join Federation Execution                            0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Resign Federation Execution                          0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+    Declaration management
+        Publish Object Class Attributes                      0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Publish Interaction Class                            0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Subscribe Object Class Attributes                    0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Subscribe Interaction Class                          0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Start Registration For Object Class                  0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Stop Registration For Object Class                   0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Turn Interactions On                                 0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Turn Interactions Off                                0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+    Object management
+        Reserve Object Instance Name                         0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Object Instance Name Reserved                        0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Register Object Instance                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Discover Object Instance                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Update Attribute Values                              0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Reflect Attribute Values                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Send Interaction                                     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Receive Interaction                                  0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Remove Object Instance                               0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Turn Updates On For Object Instance                  0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Turn Updates Off For Object Instance                 0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+    Support Services
+        Get Object Class Handle                              0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Get Object Instance Name                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Get Attribute Handle                                 0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Get Interaction Class Handle                         0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Get Parameter Handle                                 0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+        Evoke Multiple Callbacks                             0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+
+2017-11-30 12:17:08,877 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:153] TC_001_Services_Check: TC FAILED !hlaservices.invalidServices!
+2017-11-30 12:17:08,877 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Services_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:23:16,013 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 12:23:16,014 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-30 12:23:16,016 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:23:16,016 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 12:23:16,017 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-30 12:23:16,017 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-30 12:23:16,018 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-30 12:23:16,018 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-30 12:23:16,019 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-30 12:23:16,020 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-30 12:23:16,021 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:16,021 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-30 12:23:16,023 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:16,025 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-30 12:23:16,025 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:16,026 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-30 12:23:16,026 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-30 12:23:16,026 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-30 12:23:16,027 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 12:23:16,058 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-30 12:23:16,059 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:16,060 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-30 12:23:16,060 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-30 12:23:16,061 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-30 12:23:16,061 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-30 12:23:16,071 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-30 12:23:16,072 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:16,072 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-30 12:23:16,073 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-30 12:23:16,073 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:16,074 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-30 12:23:16,074 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-30 12:23:16,669 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:16,669 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-30 12:23:16,669 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-30 12:23:16,669 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:16,669 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-30 12:23:16,669 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-30 12:23:16,669 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:16,669 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-30 12:23:16,669 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:23:23,868 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_hla_object.TC_001_Object_Interaction_Check
+2017-11-30 12:23:23,869 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HLA_Object-0.0.1/bin
+2017-11-30 12:23:23,870 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:23:23,870 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HLA_Object-0.0.1\bin
+2017-11-30 12:23:23,870 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_hla_object.TC_001_Object_Interaction_Check
+2017-11-30 12:23:23,954 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Object_Interaction_Check.java:79] TC_001_Object_Interaction_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!hlaobject.objectsPublication!
+!hlaobject.FomSomComparison1!
+!hlaobject.FomSomComparison2!
+
+2017-11-30 12:23:23,954 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Object_Interaction_Check: TEST CASE PREAMBLE
+2017-11-30 12:23:23,955 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Object_Interaction_Check: !files.check.FOM.parse!
+2017-11-30 12:23:24,361 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Object_Interaction_Check: !files.check.SOM.parse!
+2017-11-30 12:23:24,449 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Object_Interaction_Check: !files.check.SOM_IN_FOM!
+2017-11-30 12:23:24,449 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Object_Interaction_Check: !files.check.sharing!
+2017-11-30 12:23:25,874 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Object_Interaction_Check: !files.check.rules!
+2017-11-30 12:23:26,530 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Object_Interaction_Check.java:97] TC_001_Object_Interaction_Check: !etc_fra.RtiConnected!
+2017-11-30 12:23:26,546 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Object_Interaction_Check.java:98] TC_001_Object_Interaction_Check: -----------------------------------------------------------
+
+2017-11-30 12:23:26,546 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Object_Interaction_Check: TEST CASE BODY
+2017-11-30 12:23:26,546 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Object_BaseModel.java:445] TC_001_Object_Interaction_Check: !etc_fra.sleepFor!
+2017-11-30 12:24:26,550 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Object_Interaction_Check.java:116] TC_001_Object_Interaction_Check: !etc_fra.wakeup!
+2017-11-30 12:24:26,550 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Object_BaseModel.java:345] TC_001_Object_Interaction_Check: ###########################################################
+!resultsFile.header! "TestFederate"
+Date : 2017_11_30_12h24m26s
+
+!resultsFile.header.data.certificated!
+
+!resultsFile.header.explanations!
+###########################################################
+
+
+2017-11-30 12:24:26,550 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Object_BaseModel.java:348] TC_001_Object_Interaction_Check:                                                 !resultsFile.headerColumns.data.sending!           !resultsFile.headerColumns.data.reception!        
+
+2017-11-30 12:24:26,550 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Object_BaseModel.java:351] TC_001_Object_Interaction_Check: 
+2017-11-30 12:24:26,550 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Object_BaseModel.java:355] TC_001_Object_Interaction_Check: ###########################################################
+!resultsFile.header! "TestFederate"
+Date : 2017_11_30_12h24m26s
+
+!resultsFile.header.data.notCertificated!
+
+!resultsFile.header.explanations!
+###########################################################
+
+
+2017-11-30 12:24:26,550 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Object_BaseModel.java:358] TC_001_Object_Interaction_Check:                                                 !resultsFile.headerColumns.data.sending!           !resultsFile.headerColumns.data.reception!        
+
+2017-11-30 12:24:26,550 INFO [d.f.iosb.testrunner.JMSTestRunner] [HLA_Object_BaseModel.java:361] TC_001_Object_Interaction_Check: 
+!content.object!
+    HLAobjectRoot
+        BaseEntity
+            AccelerationVector                  0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            DeadReckoningAlgorithm              0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            Orientation                         0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            WorldLocation                       0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            VelocityVector                      0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+!content.interaction!
+    HLAinteractionRoot
+        WeaponFire
+            EventIdentifier                     0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            FireControlSolutionRange            0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            FireMissionIndex                    0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            FiringLocation                      0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            FiringObjectIdentifier              0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            FuseType                            0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            InitialVelocityVector               0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            MunitionObjectIdentifier            0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            MunitionType                        0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            QuantityFired                       0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            RateOfFire                          0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            TargetObjectIdentifier              0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+            WarheadType                         0     R : ExpectedNotSeen (D : ExpectedNotSeen)     0     R : ExpectedNotSeen (D : ExpectedNotSeen)    
+
+2017-11-30 12:24:26,629 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:153] TC_001_Object_Interaction_Check: TC FAILED !hlaobject.invalidObjects!
+2017-11-30 12:24:26,629 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Object_Interaction_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:24:42,090 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: de.fraunhofer.iosb.tc_helloworld.TC0002
+2017-11-30 12:24:42,090 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.1/bin
+2017-11-30 12:24:42,092 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:24:42,095 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HelloWorld-0.4.1\bin
+2017-11-30 12:24:42,095 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: de.fraunhofer.iosb.tc_helloworld.TC0002
+2017-11-30 12:24:42,098 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:91] TC0002: 
+---------------------------------------------------------------------
+TEST PURPOSE
+Test if a HelloWorld federate answers with: "HelloWorld <country name>"
+upon receiving a "HelloWorld" interaction
+Repeat sending the "HelloWorld" interaction for several cycles and evaluate
+the interactions received
+---------------------------------------------------------------------
+
+2017-11-30 12:24:42,098 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC0002: TEST CASE PREAMBLE
+2017-11-30 12:24:42,755 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC0002: TEST CASE BODY
+2017-11-30 12:24:48,813 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:144] TC0002: TC INCONCLUSIVE Did not receive any HelloWorld message
+2017-11-30 12:24:48,813 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC0002: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 12:24:53,088 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: de.fraunhofer.iosb.tc_helloworld.TC0001
+2017-11-30 12:24:53,089 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.1/bin
+2017-11-30 12:24:53,090 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 12:24:53,091 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HelloWorld-0.4.1\bin
+2017-11-30 12:24:53,091 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: de.fraunhofer.iosb.tc_helloworld.TC0001
+2017-11-30 12:24:53,094 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0001.java:81] TC0001: 
+---------------------------------------------------------------------
+TEST PURPOSE
+Test if a HelloWorld federate calculates a fixed population increase
+correctly
+Observe the federate for a fixed number of cycles and compare the
+last received value with the previously received value plus the fixed
+percentage and a small tolerence for each cycle
+---------------------------------------------------------------------
+
+2017-11-30 12:24:53,094 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC0001: TEST CASE PREAMBLE
+2017-11-30 12:24:53,133 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC0001: TEST CASE BODY
+2017-11-30 12:24:59,262 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:144] TC0001: TC INCONCLUSIVE Did not receive any Population message
+2017-11-30 12:24:59,262 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC0001: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 13:11:02,273 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: de.fraunhofer.iosb.tc_helloworld.TC0002
+2017-11-30 13:11:02,286 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.1/bin
+2017-11-30 13:11:02,291 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 13:11:02,292 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HelloWorld-0.4.1\bin
+2017-11-30 13:11:02,292 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: de.fraunhofer.iosb.tc_helloworld.TC0002
+2017-11-30 13:11:02,323 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:91] TC0002: 
+---------------------------------------------------------------------
+TEST PURPOSE
+Test if a HelloWorld federate answers with: "HelloWorld <country name>"
+upon receiving a "HelloWorld" interaction
+Repeat sending the "HelloWorld" interaction for several cycles and evaluate
+the interactions received
+---------------------------------------------------------------------
+
+2017-11-30 13:11:02,324 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC0002: TEST CASE PREAMBLE
+2017-11-30 13:11:03,058 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC0002: TEST CASE BODY
+2017-11-30 13:11:08,099 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:144] TC0002: TC INCONCLUSIVE Did not receive any HelloWorld message
+2017-11-30 13:11:08,102 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC0002: JMSTestRunner:onMessageConsumer:run: after
+2017-11-30 13:12:08,568 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: de.fraunhofer.iosb.tc_helloworld.TC0001
+2017-11-30 13:12:08,568 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.1/bin
+2017-11-30 13:12:08,569 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-30 13:12:08,570 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HelloWorld-0.4.1\bin
+2017-11-30 13:12:08,570 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: de.fraunhofer.iosb.tc_helloworld.TC0001
+2017-11-30 13:12:08,572 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0001.java:81] TC0001: 
+---------------------------------------------------------------------
+TEST PURPOSE
+Test if a HelloWorld federate calculates a fixed population increase
+correctly
+Observe the federate for a fixed number of cycles and compare the
+last received value with the previously received value plus the fixed
+percentage and a small tolerence for each cycle
+---------------------------------------------------------------------
+
+2017-11-30 13:12:08,573 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC0001: TEST CASE PREAMBLE
+2017-11-30 13:12:08,591 ERROR [d.f.iosb.testrunner.JMSTestRunner] [IVCT_RTIambassador.java:297] TC0001: createFederationExecution exception=Federation HelloWorld already exists (909000000)
+2017-11-30 13:12:08,592 WARN [d.f.iosb.testrunner.JMSTestRunner] [IVCT_BaseModel.java:96] TC0001: initiateRti: FederationExecutionAlreadyExists (ignored)
+2017-11-30 13:12:08,630 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC0001: TEST CASE BODY
+2017-11-30 13:12:08,777 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 112.550865
+2017-11-30 13:12:09,775 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 115.92739
+2017-11-30 13:12:10,775 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 119.40521
+2017-11-30 13:12:11,632 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:11,634 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 119.40521 in range 119.40521 +/-1%
+2017-11-30 13:12:11,636 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:11,777 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 122.987366
+2017-11-30 13:12:12,638 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:12,640 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 122.987366 in range 122.987366 +/-1%
+2017-11-30 13:12:12,644 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:12,778 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 126.67699
+2017-11-30 13:12:13,645 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:13,646 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 126.67699 in range 126.67699 +/-1%
+2017-11-30 13:12:13,650 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:13,779 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 130.4773
+2017-11-30 13:12:14,652 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:14,654 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 130.4773 in range 130.4773 +/-1%
+2017-11-30 13:12:14,657 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:14,780 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 134.39162
+2017-11-30 13:12:15,662 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:15,664 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 134.39162 in range 134.39162 +/-1%
+2017-11-30 13:12:15,668 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:15,781 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 138.42336
+2017-11-30 13:12:16,670 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:16,672 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 138.42336 in range 138.42336 +/-1%
+2017-11-30 13:12:16,674 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:16,784 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 142.57605
+2017-11-30 13:12:17,676 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:17,677 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 142.57605 in range 142.57605 +/-1%
+2017-11-30 13:12:17,681 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:17,786 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 146.85333
+2017-11-30 13:12:18,683 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:18,684 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 146.85333 in range 146.85333 +/-1%
+2017-11-30 13:12:18,685 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:18,787 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 151.25893
+2017-11-30 13:12:19,685 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:19,687 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 151.25893 in range 151.25893 +/-1%
+2017-11-30 13:12:19,691 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:19,788 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 155.79669
+2017-11-30 13:12:20,693 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:20,695 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 155.79669 in range 155.79669 +/-1%
+2017-11-30 13:12:20,698 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-11-30 13:12:20,789 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 160.47058
+2017-11-30 13:12:21,699 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC0001: TEST CASE POSTAMBLE
+2017-11-30 13:12:21,707 ERROR [d.f.iosb.testrunner.JMSTestRunner] [IVCT_RTIambassador.java:345] TC0001: destroyFederationExecution exception=Federates Currently Joined (909146016)
+2017-11-30 13:12:21,709 WARN [d.f.iosb.testrunner.JMSTestRunner] [IVCT_BaseModel.java:136] TC0001: terminateRti: FederatesCurrentlyJoined (ignored)
+2017-11-30 13:12:21,712 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC0001: TC PASSED
+2017-11-30 13:12:21,715 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC0001: JMSTestRunner:onMessageConsumer:run: after

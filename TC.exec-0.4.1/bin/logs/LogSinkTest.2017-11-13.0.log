@@ -1,0 +1,128 @@
+2017-11-13 15:55:21,083 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-13 15:55:21,090 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-13 15:55:21,090 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-13 15:55:21,090 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-13 15:55:21,090 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-13 15:55:21,121 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-13 15:55:21,121 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-13 15:55:21,168 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-13 15:55:21,168 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-13 15:55:21,168 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-13 15:55:21,168 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:55:21,168 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-13 15:55:21,184 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:55:21,184 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-13 15:55:21,184 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:55:21,184 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-13 15:55:21,184 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-13 15:55:21,184 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-13 15:55:21,184 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-13 15:55:21,605 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-13 15:55:21,605 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:55:21,605 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-13 15:55:21,605 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-13 15:55:21,605 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-13 15:55:21,605 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-13 15:55:21,699 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-13 15:55:21,699 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:55:21,699 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-13 15:55:21,699 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-13 15:55:21,699 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:55:21,699 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-13 15:55:21,699 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-13 15:55:23,434 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:55:23,434 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-13 15:55:23,434 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-13 15:55:23,434 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:55:23,434 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-13 15:55:23,434 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-13 15:55:23,444 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:55:23,444 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-13 15:55:23,446 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
+2017-11-13 15:56:37,678 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-13 15:56:37,694 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_CS_Verification-0.0.2/bin
+2017-11-13 15:56:37,694 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-11-13 15:56:37,694 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-13 15:56:37,694 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check
+2017-11-13 15:56:37,725 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:52] TC_001_Files_Check: pwd = C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_CS_Verification-0.0.2\bin
+2017-11-13 15:56:37,725 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:53] TC_001_Files_Check: Locale = de_DE
+2017-11-13 15:56:37,769 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:78] TC_001_Files_Check: -----------------------------------------------------------
+!etc_fra.purpose!
+!csverification.FomSomExistence!
+!csverification.FomSomParsing!
+!csverification.FomSomSharing!
+!csverification.FomSomRules!
+
+2017-11-13 15:56:37,769 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC_001_Files_Check: TEST CASE PREAMBLE
+2017-11-13 15:56:37,769 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:86] TC_001_Files_Check: !csverification.noConnection!
+2017-11-13 15:56:37,785 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:87] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:56:37,785 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC_001_Files_Check: TEST CASE BODY
+2017-11-13 15:56:37,785 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:56:37,785 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.federateName!TestFederate
+
+2017-11-13 15:56:37,785 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:56:37,785 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:167] TC_001_Files_Check: !files.check.FOM.parse!
+2017-11-13 15:56:37,785 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.FOMFiles!
+2017-11-13 15:56:37,785 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/MAKsimple1516e.xml
+2017-11-13 15:56:37,785 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-13 15:56:38,222 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resFOMFiles!!files.check.succeeded!
+
+2017-11-13 15:56:38,222 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:56:38,222 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:214] TC_001_Files_Check: !files.check.SOM.parse!
+2017-11-13 15:56:38,222 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.SOMFiles!
+2017-11-13 15:56:38,222 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: C:/Projekte/MSG134/IVCT_Runtime/IVCTsut/rtiSimple4etcFra/HLA-Verification-2016/SOM_MAKsimple1516e.xml
+2017-11-13 15:56:38,222 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: 
+
+2017-11-13 15:56:38,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMFiles!!files.check.succeeded!
+
+2017-11-13 15:56:38,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:56:38,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:259] TC_001_Files_Check: !files.check.SOM_IN_FOM!
+2017-11-13 15:56:38,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSOMInFOM!!files.check.succeeded!
+
+2017-11-13 15:56:38,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:56:38,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:291] TC_001_Files_Check: !files.check.sharing!
+2017-11-13 15:56:38,332 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resSharing!!files.check.succeeded!
+
+2017-11-13 15:56:39,988 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:56:39,988 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:334] TC_001_Files_Check: !files.check.rules!
+2017-11-13 15:56:39,988 INFO [d.f.iosb.testrunner.JMSTestRunner] [FCTTFilesCheck.java:793] TC_001_Files_Check: !files.check.reportFile.resultTest!!files.check.succeeded!
+
+2017-11-13 15:56:39,988 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:104] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:56:39,988 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC_001_Files_Check: TEST CASE POSTAMBLE
+2017-11-13 15:56:39,988 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:112] TC_001_Files_Check: !csverification.noDeconnection!
+2017-11-13 15:56:39,996 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC_001_Files_Check.java:113] TC_001_Files_Check: -----------------------------------------------------------
+
+2017-11-13 15:56:39,996 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC_001_Files_Check: TC PASSED
+2017-11-13 15:56:39,998 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC_001_Files_Check: JMSTestRunner:onMessageConsumer:run: after
