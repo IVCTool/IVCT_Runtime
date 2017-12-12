@@ -1,0 +1,308 @@
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server version:        Apache Tomcat/7.0.78
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server built:          May 10 2017 15:02:19 UTC
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server number:         7.0.78.0
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: OS Name:               Windows 10
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: OS Version:            10.0
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Architecture:          amd64
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: JVM Version:           1.8.0_131-b11
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: JVM Vendor:            Oracle Corporation
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: CATALINA_BASE:         C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: CATALINA_HOME:         C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.util.logging.config.file=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\conf\logging.properties
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Xdebug
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.endorsed.dirs=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\endorsed
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dcatalina.base=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dcatalina.home=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.io.tmpdir=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\temp
+Nov 06, 2017 9:59:58 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMATION: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\prti1516e\lib;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\tools\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Users\hzg\AppData\Local\Microsoft\WindowsApps;C:\tools\gradle-3.5\bin;C:\Users\hzg\AppData\Local\atom\bin;.
+Nov 06, 2017 9:59:58 AM org.apache.coyote.AbstractProtocol init
+INFORMATION: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 06, 2017 9:59:58 AM org.apache.coyote.AbstractProtocol init
+INFORMATION: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.Catalina load
+INFORMATION: Initialization processed in 527 ms
+Nov 06, 2017 9:59:58 AM org.apache.catalina.core.StandardService startInternal
+INFORMATION: Starting service Catalina
+Nov 06, 2017 9:59:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMATION: Starting Servlet Engine: Apache Tomcat/7.0.78
+Nov 06, 2017 9:59:58 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deploying web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\LogSink.webApp-0.4.1.war
+Nov 06, 2017 9:59:58 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMATION: validateJarFile(C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\LogSink.webApp-0.4.1\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 06, 2017 9:59:59 AM org.apache.catalina.startup.TldConfig execute
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 06, 2017 9:59:59 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deployment of web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\LogSink.webApp-0.4.1.war has finished in 1,165 ms
+Nov 06, 2017 9:59:59 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deploying web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\nato.ivct.gui.nato.ivct.gui.server.war
+Nov 06, 2017 10:00:00 AM org.apache.catalina.deploy.WebXml setVersion
+WARNUNG: Unknown version string [3.1]. Default version will be used.
+Nov 06, 2017 10:00:00 AM org.apache.catalina.startup.TldConfig execute
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 06, 2017 10:00:01 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deployment of web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\nato.ivct.gui.nato.ivct.gui.server.war has finished in 1,567 ms
+Nov 06, 2017 10:00:01 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deploying web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\nato.ivct.gui.nato.ivct.gui.ui.html.war
+Nov 06, 2017 10:00:01 AM org.apache.catalina.deploy.WebXml setVersion
+WARNUNG: Unknown version string [3.1]. Default version will be used.
+Nov 06, 2017 10:00:02 AM org.apache.catalina.startup.TldConfig execute
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 06, 2017 10:00:14 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deployment of web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\nato.ivct.gui.nato.ivct.gui.ui.html.war has finished in 13,303 ms
+Nov 06, 2017 10:00:14 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deploying web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\TC.webApp-0.4.1.war
+Nov 06, 2017 10:00:14 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMATION: validateJarFile(C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\TC.webApp-0.4.1\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 06, 2017 10:00:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFORMATION: TLD skipped. URI: josqltaglib is already defined
+Nov 06, 2017 10:00:16 AM org.apache.catalina.startup.TldConfig execute
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deployment of web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\TC.webApp-0.4.1.war has finished in 2,235 ms
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\docs
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\docs has finished in 34 ms
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\examples
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\examples has finished in 281 ms
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\host-manager
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\host-manager has finished in 53 ms
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\manager
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\manager has finished in 44 ms
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\ROOT
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\ROOT has finished in 30 ms
+Nov 06, 2017 10:00:17 AM org.apache.coyote.AbstractProtocol start
+INFORMATION: Starting ProtocolHandler ["http-bio-8080"]
+Nov 06, 2017 10:00:17 AM org.apache.coyote.AbstractProtocol start
+INFORMATION: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 06, 2017 10:00:17 AM org.apache.catalina.startup.Catalina start
+INFORMATION: Server startup in 18777 ms
+Nov 06, 2017 10:03:51 AM org.apache.coyote.AbstractProtocol pause
+INFORMATION: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 06, 2017 10:03:51 AM org.apache.coyote.AbstractProtocol pause
+INFORMATION: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 06, 2017 10:03:51 AM org.apache.catalina.core.StandardService stopInternal
+INFORMATION: Stopping service Catalina
+Nov 06, 2017 10:03:51 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor ReadCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:51 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64171] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:51 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor WriteCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:51 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64172] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:51 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor Worker] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:52 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor ReadCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:52 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64179] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:52 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor WriteCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:52 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64180] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:52 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor Worker] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:52 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6fab04d]) and a value of type [org.apache.xerces.jaxp.validation.XMLSchemaFactory] (value [org.apache.xerces.jaxp.validation.XMLSchemaFactory@50c6aaf4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Nov 06, 2017 10:03:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [http-bio-8080-exec-5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [ActiveMQ InactivityMonitor ReadCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64185] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [ActiveMQ InactivityMonitor WriteCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:03:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [ActiveMQ InactivityMonitor Worker] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server version:        Apache Tomcat/7.0.78
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server built:          May 10 2017 15:02:19 UTC
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server number:         7.0.78.0
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: OS Name:               Windows 10
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: OS Version:            10.0
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Architecture:          amd64
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: JVM Version:           1.8.0_131-b11
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: JVM Vendor:            Oracle Corporation
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: CATALINA_BASE:         C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: CATALINA_HOME:         C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.util.logging.config.file=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\conf\logging.properties
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Xdebug
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.endorsed.dirs=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\endorsed
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dcatalina.base=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dcatalina.home=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.io.tmpdir=C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\temp
+Nov 06, 2017 10:05:00 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMATION: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\prti1516e\lib;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\tools\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Users\hzg\AppData\Local\Microsoft\WindowsApps;C:\tools\gradle-3.5\bin;C:\Users\hzg\AppData\Local\atom\bin;.
+Nov 06, 2017 10:05:00 AM org.apache.coyote.AbstractProtocol init
+INFORMATION: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 06, 2017 10:05:00 AM org.apache.coyote.AbstractProtocol init
+INFORMATION: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.Catalina load
+INFORMATION: Initialization processed in 442 ms
+Nov 06, 2017 10:05:00 AM org.apache.catalina.core.StandardService startInternal
+INFORMATION: Starting service Catalina
+Nov 06, 2017 10:05:00 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMATION: Starting Servlet Engine: Apache Tomcat/7.0.78
+Nov 06, 2017 10:05:00 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deploying web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\LogSink.webApp-0.4.1.war
+Nov 06, 2017 10:05:00 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMATION: validateJarFile(C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\LogSink.webApp-0.4.1\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 06, 2017 10:05:01 AM org.apache.catalina.startup.TldConfig execute
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 06, 2017 10:05:01 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deployment of web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\LogSink.webApp-0.4.1.war has finished in 1,062 ms
+Nov 06, 2017 10:05:01 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deploying web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\nato.ivct.gui.nato.ivct.gui.server.war
+Nov 06, 2017 10:05:01 AM org.apache.catalina.deploy.WebXml setVersion
+WARNUNG: Unknown version string [3.1]. Default version will be used.
+Nov 06, 2017 10:05:02 AM org.apache.catalina.startup.TldConfig execute
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 06, 2017 10:05:03 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deployment of web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\nato.ivct.gui.nato.ivct.gui.server.war has finished in 1,506 ms
+Nov 06, 2017 10:05:03 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deploying web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\nato.ivct.gui.nato.ivct.gui.ui.html.war
+Nov 06, 2017 10:05:03 AM org.apache.catalina.deploy.WebXml setVersion
+WARNUNG: Unknown version string [3.1]. Default version will be used.
+Nov 06, 2017 10:05:04 AM org.apache.catalina.startup.TldConfig execute
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 06, 2017 10:05:16 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deployment of web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\nato.ivct.gui.nato.ivct.gui.ui.html.war has finished in 13,149 ms
+Nov 06, 2017 10:05:16 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deploying web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\TC.webApp-0.4.1.war
+Nov 06, 2017 10:05:16 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFORMATION: validateJarFile(C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\TC.webApp-0.4.1\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.TaglibUriRule body
+INFORMATION: TLD skipped. URI: josqltaglib is already defined
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.TldConfig execute
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMATION: Deployment of web application archive C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\TC.webApp-0.4.1.war has finished in 2,060 ms
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\docs
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\docs has finished in 31 ms
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\examples
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\examples has finished in 203 ms
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\host-manager
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\host-manager has finished in 40 ms
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\manager
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\manager has finished in 47 ms
+Nov 06, 2017 10:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\ROOT
+Nov 06, 2017 10:05:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory C:\Projekte\MSG134\IVCT_Runtime\apache-tomcat-7.0.78\webapps\ROOT has finished in 29 ms
+Nov 06, 2017 10:05:19 AM org.apache.coyote.AbstractProtocol start
+INFORMATION: Starting ProtocolHandler ["http-bio-8080"]
+Nov 06, 2017 10:05:19 AM org.apache.coyote.AbstractProtocol start
+INFORMATION: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 06, 2017 10:05:19 AM org.apache.catalina.startup.Catalina start
+INFORMATION: Server startup in 18197 ms
+Nov 06, 2017 3:15:32 PM org.apache.coyote.AbstractProtocol pause
+INFORMATION: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 06, 2017 3:15:33 PM org.apache.coyote.AbstractProtocol pause
+INFORMATION: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 06, 2017 3:15:33 PM org.apache.catalina.core.StandardService stopInternal
+INFORMATION: Stopping service Catalina
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor ReadCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64272] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor WriteCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64273] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor Worker] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor Worker] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/LogSink.webApp-0.4.1] appears to have started a thread named [ActiveMQ Session Task-11] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor ReadCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64284] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor WriteCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64285] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor Worker] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ InactivityMonitor Worker] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/TC.webApp-0.4.1] appears to have started a thread named [ActiveMQ Session Task-11] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:35 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Nov 06, 2017 3:15:35 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [ActiveMQ InactivityMonitor ReadCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:35 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@64292] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:35 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [ActiveMQ InactivityMonitor WriteCheckTimer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:35 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [ActiveMQ InactivityMonitor Worker] but has failed to stop it. This is very likely to create a memory leak.
+Nov 06, 2017 3:15:35 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SCHWERWIEGEND: The web application [/nato.ivct.gui.nato.ivct.gui.server] appears to have started a thread named [ActiveMQ Session Task-11] but has failed to stop it. This is very likely to create a memory leak.

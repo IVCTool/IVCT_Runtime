@@ -1,0 +1,2425 @@
+Sep 21, 2017 12:08:04 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:08:04 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/backup LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:08:07 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 12:08:07 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 12:08:07 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@53b2e0ca')
+Sep 21, 2017 12:08:08 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:08:08 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:16:58 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 12:16:58 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 12:16:58 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 12:16:58 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 12:16:58 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 3DA6F8792C46B30B1ADFC92E70FBC578
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:16:58 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 4669908FC665BB9D6ECA05FFE2FD55B1
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:16:58 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 11EE71BFD41E0274AB14DFE5A9CD708D
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:16:58 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 0CD813AC87CE51D16F3BDB8675115BFF
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:16:58 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session E33CC51FAE9D3F696BA65194DD57CA82
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:16:58 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 17ED11D6FB3E6B11E3C3F8BB74CE8582
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:16:58 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session E9D8A3D746F2965E32602A1E2D5F0A2C
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:17:11 PM org.apache.catalina.session.StandardSession readObject
+WARNUNG: Cannot deserialize session attribute org.eclipse.scout.rt.server.IServerSession for session 3DA6F8792C46B30B1ADFC92E70FBC578
+Sep 21, 2017 12:17:27 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:17:27 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/backup LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:17:29 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 12:17:29 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 12:17:29 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@28ca0f0d')
+Sep 21, 2017 12:17:29 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:17:29 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:22:40 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 12:22:40 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 12:22:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 12:22:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 12:23:20 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:23:20 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/backup LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:23:22 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 12:23:22 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 12:23:22 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@68b6bbd5')
+Sep 21, 2017 12:23:23 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:23:23 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:24:08 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 12:24:08 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 12:24:08 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 12:24:08 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 12:25:11 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 12:25:11 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 12:25:11 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6b857801')
+Sep 21, 2017 12:25:11 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 12:25:11 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 1:15:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 7E12CFE9CE14BF6D3CD42BA1DCF81398
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session B18BECC8663EEA38373AC1AFD38510A0
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 39F4F9DF1719D7EFF532312189F0F9CD
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 8E6BDFA7D548C059E09F8F1DFC5CB1D2
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session D2BA8F6805BC60DE89E6692798359E3E
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 8674A6EFAA8B58FB935E93DDF0FE48BB
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 38497B4708F87BCABE03B654F5920085
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 5A761734A2144CBE3282A638EC971BB1
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session A00EAD4A508BC14AEAF1653FFA921D0C
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:12 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session C796C5237E3DCE11E200EC57A45D2397
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:29 PM org.apache.catalina.session.StandardSession readObject
+WARNUNG: Cannot deserialize session attribute org.eclipse.scout.rt.server.IServerSession for session 7E12CFE9CE14BF6D3CD42BA1DCF81398
+Sep 21, 2017 1:15:45 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 1:15:45 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 1:15:45 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@602427f9')
+Sep 21, 2017 1:15:45 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:15:45 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:29:08 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 1:29:08 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 1:29:08 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 1:29:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 1:29:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 1:29:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6236ba70')
+Sep 21, 2017 1:31:23 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:31:25 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:31:34 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 1:31:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 1:31:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 1:33:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 1:33:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 1:33:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@72e0abf6')
+Sep 21, 2017 1:34:09 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:34:11 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:47:02 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 1:47:02 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 1:47:02 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 1:47:04 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session AAA4DDE44B047D191543CA1A2F07A0D6
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:47:04 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 753C7E7807C3A55896C145EF4E77AADE
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:47:04 PM org.apache.catalina.core.StandardHostValve invoke
+SCHWERWIEGEND: Exception Processing /nato.ivct.gui.nato.ivct.gui.server/process
+java.lang.NullPointerException
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:265)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:47:41 PM org.apache.catalina.session.StandardSession readObject
+WARNUNG: Cannot deserialize session attribute org.eclipse.scout.rt.server.IServerSession for session AAA4DDE44B047D191543CA1A2F07A0D6
+Sep 21, 2017 1:47:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 1:47:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 1:47:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1b68ad82')
+Sep 21, 2017 1:47:58 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:47:58 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:52:51 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 1:52:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 1:52:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 1:52:53 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session EF7D7948E1A830F5615B2841A720E54C
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:52:53 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session EF05F69834DF14CF7939AEB952982631
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:52:53 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 2D4C88C0370306ED383F2D21E29EE197
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:52:53 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session DAA073F881BEA3BA9C2FF1F567CAAE57
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:52:53 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 29F14187DD15B3A40DA976D9FA9F383F
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 1:52:53 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 9216249AC0D3F5C7D546AD7F164A5559
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 2:56:32 PM org.apache.catalina.session.StandardSession readObject
+WARNUNG: Cannot deserialize session attribute org.eclipse.scout.rt.server.IServerSession for session EF7D7948E1A830F5615B2841A720E54C
+Sep 21, 2017 2:56:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 2:56:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 2:56:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@684abdb2')
+Sep 21, 2017 2:56:50 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 2:56:50 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:13:14 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 4:13:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 4:13:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 4:13:17 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 91B276D9376D58F9D01E8D959A66E6D1
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:13:17 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 6B2CE377694CD52F8AAFC5428FA4D396
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:13:17 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 8833295B608CC48F637FAACC365F90A3
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:15:51 PM org.apache.catalina.session.StandardSession readObject
+WARNUNG: Cannot deserialize session attribute org.eclipse.scout.rt.server.IServerSession for session 91B276D9376D58F9D01E8D959A66E6D1
+Sep 21, 2017 4:17:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 4:17:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 4:17:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3f3a22b2')
+Sep 21, 2017 4:17:52 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:17:54 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:20:28 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.manager.ManagerServlet.stop(ManagerServlet.java:1362)
+	at org.apache.catalina.manager.HTMLManagerServlet.stop(HTMLManagerServlet.java:702)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:211)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 35 more
+
+Sep 21, 2017 4:25:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 4:25:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 4:25:38 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session B9B5B6A73E7A52106F3800FD17900DD0
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:25:38 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session E4D32BC1A6769F9B9F54ADC9D61E5831
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:25:38 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 033545015AE1FF985DD12FFE0AD69262
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:25:38 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session C6E8BAD2BE1BDA6A14C167761874D445
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:25:38 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session E3413D27F550198EFA70F68A0D5CCD26
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:25:38 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session C3F04195EFF1EA27331861C23BBB70FC
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:25:38 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 743461E572D6A77CEF07591969B28D72
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:25:38 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session D395A84DB1BB34949E042730C2F58487
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:25:38 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 2BAB8657612B305463E7CBB300FBB055
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:25:54 PM org.apache.catalina.session.StandardSession readObject
+WARNUNG: Cannot deserialize session attribute org.eclipse.scout.rt.server.IServerSession for session B9B5B6A73E7A52106F3800FD17900DD0
+Sep 21, 2017 4:26:09 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 4:26:09 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 4:26:09 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2ade495a')
+Sep 21, 2017 4:26:10 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:26:10 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:32:17 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 4:32:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 4:32:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 4:32:20 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 500F452C0099937506664D0602AF3F73
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:32:20 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 8EE72BCD938A585984D748AB757FDD3B
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:32:20 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 630EC1FCB7F954543EA6FA648450CFD4
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:32:20 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 46C7BBB0F7D1835AE46C190030359F6C
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:32:20 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 57FE031F32FF3375FEA554A2B45A6C92
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:32:20 PM org.apache.catalina.session.StandardSession writeObject
+WARNUNG: Cannot serialize session attribute org.eclipse.scout.rt.server.IServerSession for session 19B1D15591C9DB9B0C7E503BA304C010
+java.io.NotSerializableException: org.eclipse.scout.rt.platform.job.internal.JobFutureTask
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1700)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1092)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:405)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:323)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:493)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5825)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:32:49 PM org.apache.catalina.session.StandardSession readObject
+WARNUNG: Cannot deserialize session attribute org.eclipse.scout.rt.server.IServerSession for session 500F452C0099937506664D0602AF3F73
+Sep 21, 2017 4:33:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 4:33:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 4:33:10 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2278059f')
+Sep 21, 2017 4:33:14 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:33:14 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:34:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 4:34:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 4:34:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@393a8d3b')
+Sep 21, 2017 4:35:16 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:35:16 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:36:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 4:36:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 4:36:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3f90a184')
+Sep 21, 2017 4:36:14 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:36:16 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:38:08 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 4:38:08 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 4:38:08 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5ebcec26')
+Sep 21, 2017 4:39:10 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:39:10 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:39:33 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: Servlet TcRunner threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet TcRunner threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1487)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1837)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5817)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at de.fraunhofer.iosb.testrunner.JMSTestRunner.disconnect(JMSTestRunner.java:56)
+	at de.fraunhofer.iosb.tc.TcRunner.destroy(TcRunner.java:76)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1471)
+	... 10 more
+
+Sep 21, 2017 4:39:33 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextDestroyed()
+Sep 21, 2017 4:39:33 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextDestroyed()
+Sep 21, 2017 4:39:58 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 4:39:58 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 4:39:58 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@791587d0')
+Sep 21, 2017 4:41:28 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:41:32 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:42:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 4:42:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 4:42:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7da04986')
+Sep 21, 2017 4:43:01 PM org.apache.catalina.core.ApplicationContext log
+SCHWERWIEGEND: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:43:01 PM org.apache.catalina.core.StandardContext loadOnStartup
+SCHWERWIEGEND: Servlet [LogSinkRunner] in web application [/LogSink.webApp-0.4.1] threw load() exception
+java.lang.NullPointerException
+	at nato.ivct.commander.CmdStartTestResultListener.execute(CmdStartTestResultListener.java:54)
+	at de.fraunhofer.iosb.ivct.logsink.LogSinkRunner.init(LogSinkRunner.java:52)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1269)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1182)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1072)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5368)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5660)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 21, 2017 4:46:48 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: contextInitialized()
+Sep 21, 2017 4:46:48 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: SessionListener: contextInitialized()
+Sep 21, 2017 4:46:48 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1bb91bf3')

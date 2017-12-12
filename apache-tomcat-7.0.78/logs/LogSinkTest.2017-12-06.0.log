@@ -1,0 +1,190 @@
+2017-12-06 10:48:16,067 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: de.fraunhofer.iosb.tc_helloworld.TC0001
+2017-12-06 10:48:16,111 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.1/bin
+2017-12-06 10:48:16,116 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-12-06 10:48:16,120 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HelloWorld-0.4.1\bin
+2017-12-06 10:48:16,125 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: de.fraunhofer.iosb.tc_helloworld.TC0001
+2017-12-06 10:48:16,273 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0001.java:81] TC0001: 
+---------------------------------------------------------------------
+TEST PURPOSE
+Test if a HelloWorld federate calculates a fixed population increase
+correctly
+Observe the federate for a fixed number of cycles and compare the
+last received value with the previously received value plus the fixed
+percentage and a small tolerence for each cycle
+---------------------------------------------------------------------
+
+2017-12-06 10:48:16,274 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC0001: TEST CASE PREAMBLE
+2017-12-06 10:48:16,626 ERROR [d.f.iosb.testrunner.JMSTestRunner] [IVCT_RTIambassador.java:297] TC0001: createFederationExecution exception=Federation HelloWorld already exists (909000000)
+2017-12-06 10:48:16,627 WARN [d.f.iosb.testrunner.JMSTestRunner] [IVCT_BaseModel.java:96] TC0001: initiateRti: FederationExecutionAlreadyExists (ignored)
+2017-12-06 10:48:17,453 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC0001: TEST CASE BODY
+2017-12-06 10:48:17,599 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 4.12166423E11
+2017-12-06 10:48:18,584 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 4.24531395E11
+2017-12-06 10:48:19,584 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 4.37267333E11
+2017-12-06 10:48:20,455 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:20,456 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 4.37267333E11 in range 4.37267333E11 +/-1%
+2017-12-06 10:48:20,459 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:20,584 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 4.50385347E11
+2017-12-06 10:48:21,462 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:21,464 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 4.50385347E11 in range 4.50385347E11 +/-1%
+2017-12-06 10:48:21,465 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:21,586 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 4.63896904E11
+2017-12-06 10:48:22,467 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:22,469 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 4.63896904E11 in range 4.63896904E11 +/-1%
+2017-12-06 10:48:22,472 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:22,587 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 4.77813801E11
+2017-12-06 10:48:23,475 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:23,476 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 4.77813801E11 in range 4.77813801E11 +/-1%
+2017-12-06 10:48:23,478 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:23,587 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 4.92148195E11
+2017-12-06 10:48:24,482 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:24,485 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 4.92148195E11 in range 4.92148195E11 +/-1%
+2017-12-06 10:48:24,493 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:24,587 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 5.06912637E11
+2017-12-06 10:48:25,494 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:25,495 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 5.06912637E11 in range 5.06912637E11 +/-1%
+2017-12-06 10:48:25,496 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:25,588 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 5.22120004E11
+2017-12-06 10:48:26,497 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:26,498 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 5.22120004E11 in range 5.22120004E11 +/-1%
+2017-12-06 10:48:26,500 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:26,589 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 5.37783599E11
+2017-12-06 10:48:27,502 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:27,504 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 5.37783599E11 in range 5.37783599E11 +/-1%
+2017-12-06 10:48:27,508 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:27,590 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 5.5391709E11
+2017-12-06 10:48:28,511 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:28,512 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 5.5391709E11 in range 5.5391709E11 +/-1%
+2017-12-06 10:48:28,512 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:28,590 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 5.7053459E11
+2017-12-06 10:48:29,577 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:29,578 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 5.7053459E11 in range 5.7053459E11 +/-1%
+2017-12-06 10:48:29,580 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 10:48:29,591 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 5.8765063E11
+2017-12-06 10:48:30,581 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC0001: TEST CASE POSTAMBLE
+2017-12-06 10:48:30,610 ERROR [d.f.iosb.testrunner.JMSTestRunner] [IVCT_RTIambassador.java:345] TC0001: destroyFederationExecution exception=Federates Currently Joined (909146016)
+2017-12-06 10:48:30,612 WARN [d.f.iosb.testrunner.JMSTestRunner] [IVCT_BaseModel.java:136] TC0001: terminateRti: FederatesCurrentlyJoined (ignored)
+2017-12-06 10:48:30,617 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC0001: TC PASSED
+2017-12-06 10:48:30,622 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC0001: JMSTestRunner:onMessageConsumer:run: after
+2017-12-06 13:10:33,138 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: de.fraunhofer.iosb.tc_helloworld.TC0001
+2017-12-06 13:10:33,139 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.1/bin
+2017-12-06 13:10:33,139 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-12-06 13:10:33,140 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HelloWorld-0.4.1\bin
+2017-12-06 13:10:33,140 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: de.fraunhofer.iosb.tc_helloworld.TC0001
+2017-12-06 13:10:33,153 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0001.java:81] TC0001: 
+---------------------------------------------------------------------
+TEST PURPOSE
+Test if a HelloWorld federate calculates a fixed population increase
+correctly
+Observe the federate for a fixed number of cycles and compare the
+last received value with the previously received value plus the fixed
+percentage and a small tolerence for each cycle
+---------------------------------------------------------------------
+
+2017-12-06 13:10:33,155 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC0001: TEST CASE PREAMBLE
+2017-12-06 13:10:33,181 ERROR [d.f.iosb.testrunner.JMSTestRunner] [IVCT_RTIambassador.java:297] TC0001: createFederationExecution exception=Federation HelloWorld already exists (909000000)
+2017-12-06 13:10:33,182 WARN [d.f.iosb.testrunner.JMSTestRunner] [IVCT_BaseModel.java:96] TC0001: initiateRti: FederationExecutionAlreadyExists (ignored)
+2017-12-06 13:10:33,206 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC0001: TEST CASE BODY
+2017-12-06 13:10:33,941 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 134.39162
+2017-12-06 13:10:34,938 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 138.42336
+2017-12-06 13:10:35,940 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 142.57605
+2017-12-06 13:10:36,209 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:36,210 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 142.57605 in range 142.57605 +/-1%
+2017-12-06 13:10:36,213 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:36,939 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 146.85333
+2017-12-06 13:10:37,216 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:37,218 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 146.85333 in range 146.85333 +/-1%
+2017-12-06 13:10:37,220 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:37,941 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 151.25893
+2017-12-06 13:10:38,223 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:38,223 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 151.25893 in range 151.25893 +/-1%
+2017-12-06 13:10:38,224 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:38,942 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 155.79669
+2017-12-06 13:10:39,224 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:39,225 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 155.79669 in range 155.79669 +/-1%
+2017-12-06 13:10:39,226 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:39,943 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 160.47058
+2017-12-06 13:10:40,227 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:40,229 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 160.47058 in range 160.47058 +/-1%
+2017-12-06 13:10:40,231 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:40,943 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 165.2847
+2017-12-06 13:10:41,233 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:41,234 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 165.2847 in range 165.2847 +/-1%
+2017-12-06 13:10:41,237 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:41,946 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 170.24324
+2017-12-06 13:10:42,240 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:42,241 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 170.24324 in range 170.24324 +/-1%
+2017-12-06 13:10:42,243 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:42,946 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 175.35054
+2017-12-06 13:10:43,245 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:43,246 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 175.35054 in range 175.35054 +/-1%
+2017-12-06 13:10:43,249 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:43,947 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 180.61105
+2017-12-06 13:10:44,251 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:44,253 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 180.61105 in range 180.61105 +/-1%
+2017-12-06 13:10:44,255 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:44,949 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 186.02937
+2017-12-06 13:10:45,258 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:125] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:45,260 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:126] TC0001: testPopulation: test value received 186.02937 in range 186.02937 +/-1%
+2017-12-06 13:10:45,262 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:127] TC0001: ---------------------------------------------------------------------
+2017-12-06 13:10:45,949 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0001: Population: 191.61024
+2017-12-06 13:10:46,264 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC0001: TEST CASE POSTAMBLE
+2017-12-06 13:10:46,276 ERROR [d.f.iosb.testrunner.JMSTestRunner] [IVCT_RTIambassador.java:345] TC0001: destroyFederationExecution exception=Federates Currently Joined (909146016)
+2017-12-06 13:10:46,279 WARN [d.f.iosb.testrunner.JMSTestRunner] [IVCT_BaseModel.java:136] TC0001: terminateRti: FederatesCurrentlyJoined (ignored)
+2017-12-06 13:10:46,285 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC0001: TC PASSED
+2017-12-06 13:10:46,288 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC0001: JMSTestRunner:onMessageConsumer:run: after
+2017-12-06 13:12:25,297 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:161] : JMSTestRunner:onMessageConsumer:run: de.fraunhofer.iosb.tc_helloworld.TC0002
+2017-12-06 13:12:25,298 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:166] : JMSTestRunner:onMessageConsumer:run: tsRunFolder is C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.1/bin
+2017-12-06 13:12:25,299 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:168] : JMSTestRunner:onMessageConsumer:run: setCurrentDirectory true
+2017-12-06 13:12:25,299 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:173] : JMSTestRunner:onMessageConsumer:run: TC DIR is C:\Projekte\MSG134\IVCT_Runtime\TestSuites\TS_HelloWorld-0.4.1\bin
+2017-12-06 13:12:25,300 INFO [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:175] : JMSTestRunner:onMessageConsumer:run: The test case class is: de.fraunhofer.iosb.tc_helloworld.TC0002
+2017-12-06 13:12:25,313 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:91] TC0002: 
+---------------------------------------------------------------------
+TEST PURPOSE
+Test if a HelloWorld federate answers with: "HelloWorld <country name>"
+upon receiving a "HelloWorld" interaction
+Repeat sending the "HelloWorld" interaction for several cycles and evaluate
+the interactions received
+---------------------------------------------------------------------
+
+2017-12-06 13:12:25,314 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:112] TC0002: TEST CASE PREAMBLE
+2017-12-06 13:12:25,339 ERROR [d.f.iosb.testrunner.JMSTestRunner] [IVCT_RTIambassador.java:297] TC0002: createFederationExecution exception=Federation HelloWorld already exists (909000000)
+2017-12-06 13:12:25,340 WARN [d.f.iosb.testrunner.JMSTestRunner] [IVCT_BaseModel.java:96] TC0002: initiateRti: FederationExecutionAlreadyExists (ignored)
+2017-12-06 13:12:25,977 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:134] TC0002: TEST CASE BODY
+2017-12-06 13:12:26,005 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 3682.479
+2017-12-06 13:12:27,003 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 3792.9534
+2017-12-06 13:12:28,005 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 3906.742
+2017-12-06 13:12:29,006 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 4023.944
+2017-12-06 13:12:29,025 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:30,009 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 4144.662
+2017-12-06 13:12:31,011 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 4269.002
+2017-12-06 13:12:31,024 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:32,011 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 4397.072
+2017-12-06 13:12:33,012 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 4528.984
+2017-12-06 13:12:33,025 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:34,014 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 4664.8535
+2017-12-06 13:12:35,014 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 4804.799
+2017-12-06 13:12:35,022 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:36,015 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 4948.943
+2017-12-06 13:12:37,017 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 5097.411
+2017-12-06 13:12:37,019 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:38,019 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 5250.3335
+2017-12-06 13:12:39,020 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 5407.8433
+2017-12-06 13:12:39,042 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:40,020 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 5570.0786
+2017-12-06 13:12:41,022 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 5737.1807
+2017-12-06 13:12:41,036 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:42,023 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 5909.296
+2017-12-06 13:12:43,024 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 6086.5747
+2017-12-06 13:12:43,035 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:44,025 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 6269.172
+2017-12-06 13:12:45,027 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 6457.247
+2017-12-06 13:12:45,049 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:46,029 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 6650.9644
+2017-12-06 13:12:47,030 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 6850.493
+2017-12-06 13:12:47,042 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-06 13:12:48,031 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 7056.008
+2017-12-06 13:12:48,044 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:164] TC0002: TEST CASE POSTAMBLE
+2017-12-06 13:12:48,053 ERROR [d.f.iosb.testrunner.JMSTestRunner] [IVCT_RTIambassador.java:345] TC0002: destroyFederationExecution exception=Federates Currently Joined (909146016)
+2017-12-06 13:12:48,057 WARN [d.f.iosb.testrunner.JMSTestRunner] [IVCT_BaseModel.java:136] TC0002: terminateRti: FederatesCurrentlyJoined (ignored)
+2017-12-06 13:12:48,063 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:166] TC0002: TC PASSED
+2017-12-06 13:12:48,068 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:185] TC0002: JMSTestRunner:onMessageConsumer:run: after

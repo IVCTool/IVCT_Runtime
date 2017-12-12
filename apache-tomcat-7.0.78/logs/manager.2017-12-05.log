@@ -1,0 +1,28 @@
+Dez 05, 2017 4:26:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Dez 05, 2017 4:26:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: init: Global resources are available
+Dez 05, 2017 4:26:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 05, 2017 4:27:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: restart: Reloading web application '/nato.ivct.gui.nato.ivct.gui.ui.html'
+Dez 05, 2017 4:28:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 05, 2017 4:29:26 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Dez 05, 2017 4:29:26 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: init: Global resources are available
+Dez 05, 2017 4:29:26 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 05, 2017 4:29:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 05, 2017 4:29:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 05, 2017 4:31:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 05, 2017 4:36:02 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Dez 05, 2017 4:36:02 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: init: Global resources are available
+Dez 05, 2017 4:36:02 PM org.apache.catalina.core.ApplicationContext log
+INFORMATION: HTMLManager: list: Listing contexts for virtual host 'localhost'

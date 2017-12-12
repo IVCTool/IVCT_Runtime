@@ -1,0 +1,218 @@
+2017-11-06 10:00:01,175 INFO  [Thread-4] org.eclipse.scout.rt.platform.internal.PlatformImplementor - Headless mode: scout.headless=true, java.awt.headless=true (automatically set by Scout), GraphicsEnvironment.isHeadless()=true - MDC[]
+2017-11-06 10:00:01,255 INFO  [Thread-4] org.eclipse.scout.rt.platform.inventory.ClassInventory - Finished preparation of jandex class inventory in 58.188994 ms - MDC[]
+2017-11-06 10:00:01,516 INFO  [Thread-4] org.eclipse.scout.rt.platform.logger.LoggerPlatformListener - registered logger support [org.eclipse.scout.rt.platform.logger.LogbackLoggerSupport] - MDC[]
+2017-11-06 10:00:01,522 INFO  [Thread-4] org.eclipse.scout.rt.shared.services.common.code.CodeTypeRegistrator - 2 code type classes registered. - MDC[]
+2017-11-06 10:00:01,532 INFO  [Thread-4] org.eclipse.scout.rt.mom.api.AbstractMomTransport - +++ Using 'NullMomImplementor' for transport 'ClusterMom'. No messages are published and received. - MDC[]
+2017-11-06 10:00:23,087 INFO  [http-bio-8080-exec-2] nato.ivct.gui.server.ServerSession - created a new session for admin - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:23,363 INFO  [http-bio-8080-exec-2] nato.ivct.gui.server.ServerSession - load SuT Information - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:23,388 INFO  [http-bio-8080-exec-2] nato.ivct.gui.server.ServerSession - load Badge Descriptions - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:23,390 INFO  [http-bio-8080-exec-2] nato.ivct.gui.server.ServerSession - start test case Result Listener - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:23,393 INFO  [scout-thread-23] nato.ivct.commander.Factory - Factory.IVCT_BADGE_HOME_ID IVCT_BADGE_HOME_ID - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$LoadBadgeDescriptions, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:23,393 INFO  [scout-thread-23] nato.ivct.commander.Factory - Read Badge descriptions from C:\Projekte\MSG134\IVCT_Runtime\Badges - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$LoadBadgeDescriptions, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:23,396 INFO  [scout-thread-22] nato.ivct.commander.CmdStartTestResultListener - subsribing the CmdStartTestResultListener - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:23,396 INFO  [http-bio-8080-exec-2] nato.ivct.commander.CmdTcStatusListener - subsribing the CmdTcStatusListener - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:23,412 INFO  [http-bio-8080-exec-2] org.eclipse.scout.rt.server.AbstractServerSession - Server session started [session=nato.ivct.gui.server.ServerSession@601bec62[id = bfc84a2a-5aea-4bef-8ee3-9c238711851c], user=admin] - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:26,494 INFO  [http-bio-8080-exec-2] nato.ivct.gui.server.ServerSession - getCbTableData - MDC[principal=admin, scoutSession=bfc84a2a-5aea-4bef-8ee3-9c238711851c, cid=Tu5bF3As3kg/3]
+2017-11-06 10:00:27,540 INFO  [http-bio-8080-exec-2] nato.ivct.gui.server.ServerSession - getSuTTableData - MDC[principal=admin, scoutSession=bfc84a2a-5aea-4bef-8ee3-9c238711851c, cid=Gy4FP3KK4wQ/5]
+2017-11-06 10:00:34,558 INFO  [http-bio-8080-exec-9] nato.ivct.gui.server.ServerSession - getCapabilityTableData - MDC[principal=admin, scoutSession=bfc84a2a-5aea-4bef-8ee3-9c238711851c, cid=PU2WE8YV7NQ/7]
+2017-11-06 10:00:39,911 INFO  [http-bio-8080-exec-2] nato.ivct.gui.server.ServerSession - starting test case - MDC[principal=admin, scoutSession=bfc84a2a-5aea-4bef-8ee3-9c238711851c, cid=Df6tE5sU9tb/11]
+2017-11-06 10:00:39,929 INFO  [ActiveMQ Session Task-1] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"1","badge":"HLA-Verification-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_CS_Verification-0.0.2\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016\/MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016"},"testCaseId":"nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check"} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:39,931 INFO  [ActiveMQ Session Task-1] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"1","badge":"HLA-Verification-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_CS_Verification-0.0.2\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016\/MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016"},"testCaseId":"nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check"} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:40,093 INFO  [ActiveMQ Session Task-2] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:40,094 INFO  [ActiveMQ Session Task-2] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:40,106 INFO  [ActiveMQ Session Task-1] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:40,106 INFO  [ActiveMQ Session Task-1] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:42,898 INFO  [ActiveMQ Session Task-1] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"done","percentFinshed":99} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:42,898 INFO  [ActiveMQ Session Task-1] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"done","percentFinshed":99} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:42,903 INFO  [ActiveMQ Session Task-2] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"finished","percentFinshed":100} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:42,903 INFO  [ActiveMQ Session Task-2] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"finished","percentFinshed":100} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:42,905 INFO  [ActiveMQ Session Task-1] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"1","commandType":"announceVerdict","testScheduleName":"HLA-Verification-2016","sutName":"rtiSimple4etcFra","verdict":"PASSED","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","verdictText":"ok","testcase":"nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check"} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:00:42,908 INFO  [ActiveMQ Session Task-1] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"1","commandType":"announceVerdict","testScheduleName":"HLA-Verification-2016","sutName":"rtiSimple4etcFra","verdict":"PASSED","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","verdictText":"ok","testcase":"nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check"} - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:03:01,382 INFO  [http-bio-8080-exec-8] nato.ivct.gui.server.ServerSession - starting test case - MDC[principal=admin, scoutSession=bfc84a2a-5aea-4bef-8ee3-9c238711851c, cid=gA4Vk4yT9kB/25]
+2017-11-06 10:03:01,394 INFO  [ActiveMQ Session Task-3] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"2","badge":"HLA-Declaration-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_HLA_Declaration-0.0.1\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016\/MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016","federationName":"FEDERATION_TEST","rtiPort":"8989","testDuration":"60","rtiAddress":"10.1.4.29"},"testCaseId":"nato.ivct.etc.fr.tc_hla_declaration.TC_001_Publish_Subscribe_Check"} - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:03:01,394 INFO  [ActiveMQ Session Task-3] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"2","badge":"HLA-Declaration-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_HLA_Declaration-0.0.1\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016\/MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016","federationName":"FEDERATION_TEST","rtiPort":"8989","testDuration":"60","rtiAddress":"10.1.4.29"},"testCaseId":"nato.ivct.etc.fr.tc_hla_declaration.TC_001_Publish_Subscribe_Check"} - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:03:01,556 INFO  [ActiveMQ Session Task-3] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:03:01,556 INFO  [ActiveMQ Session Task-3] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:03:04,447 INFO  [ActiveMQ Session Task-4] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:03:04,447 INFO  [ActiveMQ Session Task-4] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, cid=wT3aZ6Sg6AP/1]
+2017-11-06 10:05:03,073 INFO  [Thread-4] org.eclipse.scout.rt.platform.internal.PlatformImplementor - Headless mode: scout.headless=true, java.awt.headless=true (automatically set by Scout), GraphicsEnvironment.isHeadless()=true - MDC[]
+2017-11-06 10:05:03,128 INFO  [Thread-4] org.eclipse.scout.rt.platform.inventory.ClassInventory - Finished preparation of jandex class inventory in 47.224425 ms - MDC[]
+2017-11-06 10:05:03,361 INFO  [Thread-4] org.eclipse.scout.rt.platform.logger.LoggerPlatformListener - registered logger support [org.eclipse.scout.rt.platform.logger.LogbackLoggerSupport] - MDC[]
+2017-11-06 10:05:03,368 INFO  [Thread-4] org.eclipse.scout.rt.shared.services.common.code.CodeTypeRegistrator - 2 code type classes registered. - MDC[]
+2017-11-06 10:05:03,379 INFO  [Thread-4] org.eclipse.scout.rt.mom.api.AbstractMomTransport - +++ Using 'NullMomImplementor' for transport 'ClusterMom'. No messages are published and received. - MDC[]
+2017-11-06 10:05:03,430 ERROR [localhost-startStop-1] org.apache.catalina.session.StandardManager - Exception loading sessions from persistent storage - MDC[]
+java.lang.ClassCastException: java.lang.String cannot be cast to java.io.ObjectStreamClass
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1707)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2000)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1535)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1587)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:259)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:176)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:465)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5643)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1092)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1984)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-06 10:05:43,318 INFO  [http-bio-8080-exec-3] nato.ivct.gui.server.ServerSession - created a new session for admin - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:05:43,588 INFO  [http-bio-8080-exec-3] nato.ivct.gui.server.ServerSession - load SuT Information - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:05:43,612 INFO  [http-bio-8080-exec-3] nato.ivct.gui.server.ServerSession - load Badge Descriptions - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:05:43,615 INFO  [http-bio-8080-exec-3] nato.ivct.gui.server.ServerSession - start test case Result Listener - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:05:43,619 INFO  [scout-thread-22] nato.ivct.commander.CmdStartTestResultListener - subsribing the CmdStartTestResultListener - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$TestResultListener, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:05:43,619 INFO  [http-bio-8080-exec-3] nato.ivct.commander.CmdTcStatusListener - subsribing the CmdTcStatusListener - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:05:43,619 INFO  [scout-thread-23] nato.ivct.commander.Factory - Factory.IVCT_BADGE_HOME_ID IVCT_BADGE_HOME_ID - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$LoadBadgeDescriptions, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:05:43,621 INFO  [scout-thread-23] nato.ivct.commander.Factory - Read Badge descriptions from C:\Projekte\MSG134\IVCT_Runtime\Badges - MDC[principal=admin, jobName=nato.ivct.gui.server.ServerSession$LoadBadgeDescriptions, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:05:43,636 INFO  [http-bio-8080-exec-3] org.eclipse.scout.rt.server.AbstractServerSession - Server session started [session=nato.ivct.gui.server.ServerSession@a548c92[id = fc65e224-e15f-4191-897b-dffed7f28d89], user=admin] - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:05:46,060 INFO  [http-bio-8080-exec-3] nato.ivct.gui.server.ServerSession - getSuTTableData - MDC[principal=admin, scoutSession=fc65e224-e15f-4191-897b-dffed7f28d89, cid=uV4qe9HB7Te/3]
+2017-11-06 10:05:47,807 INFO  [http-bio-8080-exec-3] nato.ivct.gui.server.ServerSession - getCapabilityTableData - MDC[principal=admin, scoutSession=fc65e224-e15f-4191-897b-dffed7f28d89, cid=Jc4xS5uy3NS/5]
+2017-11-06 10:06:22,795 INFO  [http-bio-8080-exec-4] nato.ivct.gui.server.ServerSession - starting test case - MDC[principal=admin, scoutSession=fc65e224-e15f-4191-897b-dffed7f28d89, cid=My5Wy5PE4ez/10]
+2017-11-06 10:06:22,816 INFO  [ActiveMQ Session Task-2] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"1","badge":"HLA-Declaration-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_HLA_Declaration-0.0.1\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016\/MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016","federationName":"FEDERATION_TEST","rtiPort":"8989","testDuration":"60","rtiAddress":"10.1.4.29"},"testCaseId":"nato.ivct.etc.fr.tc_hla_declaration.TC_001_Publish_Subscribe_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:06:22,817 INFO  [ActiveMQ Session Task-2] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"1","badge":"HLA-Declaration-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_HLA_Declaration-0.0.1\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016\/MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Declaration-2016","federationName":"FEDERATION_TEST","rtiPort":"8989","testDuration":"60","rtiAddress":"10.1.4.29"},"testCaseId":"nato.ivct.etc.fr.tc_hla_declaration.TC_001_Publish_Subscribe_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:06:22,974 INFO  [ActiveMQ Session Task-2] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:06:22,974 INFO  [ActiveMQ Session Task-2] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:06:26,536 INFO  [ActiveMQ Session Task-3] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:06:26,537 INFO  [ActiveMQ Session Task-3] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:07:26,702 INFO  [ActiveMQ Session Task-4] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"1","commandType":"announceVerdict","testScheduleName":"HLA-Declaration-2016","sutName":"rtiSimple4etcFra","verdict":"FAILED","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","verdictText":"!hladeclaration.invalidDeclaration!","testcase":"nato.ivct.etc.fr.tc_hla_declaration.TC_001_Publish_Subscribe_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:07:26,713 INFO  [ActiveMQ Session Task-4] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"1","commandType":"announceVerdict","testScheduleName":"HLA-Declaration-2016","sutName":"rtiSimple4etcFra","verdict":"FAILED","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","verdictText":"!hladeclaration.invalidDeclaration!","testcase":"nato.ivct.etc.fr.tc_hla_declaration.TC_001_Publish_Subscribe_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:08:13,311 INFO  [http-bio-8080-exec-1] nato.ivct.gui.server.ServerSession - starting test case - MDC[principal=admin, scoutSession=fc65e224-e15f-4191-897b-dffed7f28d89, cid=Nd5dk2CM2Xx/15]
+2017-11-06 10:08:13,320 INFO  [ActiveMQ Session Task-5] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"2","badge":"HLA-Object-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_HLA_Object-0.0.1\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Object-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Object-2016\\MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Object-2016","federationName":"FEDERATION_TEST","rtiPort":"8989","testDuration":"60","rtiAddress":"10.1.4.29"},"testCaseId":"nato.ivct.etc.fr.tc_hla_object.TC_001_Object_Interaction_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:08:13,321 INFO  [ActiveMQ Session Task-5] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"2","badge":"HLA-Object-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_HLA_Object-0.0.1\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Object-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Object-2016\\MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Object-2016","federationName":"FEDERATION_TEST","rtiPort":"8989","testDuration":"60","rtiAddress":"10.1.4.29"},"testCaseId":"nato.ivct.etc.fr.tc_hla_object.TC_001_Object_Interaction_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:08:13,405 INFO  [ActiveMQ Session Task-5] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:08:13,406 INFO  [ActiveMQ Session Task-5] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:08:16,567 INFO  [ActiveMQ Session Task-5] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:08:16,567 INFO  [ActiveMQ Session Task-5] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:09:16,623 INFO  [ActiveMQ Session Task-7] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"done","percentFinshed":99} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:09:16,624 INFO  [ActiveMQ Session Task-7] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"done","percentFinshed":99} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:09:16,679 INFO  [ActiveMQ Session Task-8] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"finished","percentFinshed":100} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:09:16,679 INFO  [ActiveMQ Session Task-8] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"finished","percentFinshed":100} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:09:16,680 INFO  [ActiveMQ Session Task-7] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"2","commandType":"announceVerdict","testScheduleName":"HLA-Object-2016","sutName":"rtiSimple4etcFra","verdict":"PASSED","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","verdictText":"ok","testcase":"nato.ivct.etc.fr.tc_hla_object.TC_001_Object_Interaction_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 10:09:16,680 INFO  [ActiveMQ Session Task-7] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"2","commandType":"announceVerdict","testScheduleName":"HLA-Object-2016","sutName":"rtiSimple4etcFra","verdict":"PASSED","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","verdictText":"ok","testcase":"nato.ivct.etc.fr.tc_hla_object.TC_001_Object_Interaction_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:01:22,705 ERROR [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.eclipse.scout.rt.server.session.ServerSessionCache - Unknown sessionContext, id=bfc84a2a-5aea-4bef-8ee3-9c238711851c - MDC[]
+2017-11-06 11:08:23,154 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.eclipse.scout.rt.server.AbstractServerSession - Server session stopped [session=nato.ivct.gui.server.ServerSession@a548c92[id = fc65e224-e15f-4191-897b-dffed7f28d89], user=admin] - MDC[]
+2017-11-06 11:34:57,207 INFO  [ActiveMQ Session Task-9] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"1","badge":"HLA-Verification-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_CS_Verification-0.0.2\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016\/MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016"},"testCaseId":"nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:57,207 INFO  [ActiveMQ Session Task-9] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"1","badge":"HLA-Verification-2016","commandType":"startTestCase","sutName":"rtiSimple4etcFra","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","tsRunFolder":"C:\/Projekte\/MSG134\/IVCT_Runtime\/TestSuites\/TS_CS_Verification-0.0.2\/bin","tcParam":{"somFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016\/SOM_MAKsimple1516e.xml"}],"fomFiles":[{"fileName":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016\/MAKsimple1516e.xml"}],"sutName":"TestFederate","resultDirectory":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra\/HLA-Verification-2016"},"testCaseId":"nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:57,251 INFO  [ActiveMQ Session Task-9] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:57,251 INFO  [ActiveMQ Session Task-9] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"initiated","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:57,267 INFO  [ActiveMQ Session Task-9] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:57,267 INFO  [ActiveMQ Session Task-9] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"started","percentFinshed":0} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:59,625 INFO  [ActiveMQ Session Task-10] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"done","percentFinshed":99} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:59,625 INFO  [ActiveMQ Session Task-10] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"done","percentFinshed":99} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:59,627 INFO  [ActiveMQ Session Task-10] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"commandType":"TcStatus","status":"finished","percentFinshed":100} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:59,628 INFO  [ActiveMQ Session Task-10] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"commandType":"TcStatus","status":"finished","percentFinshed":100} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:59,630 INFO  [ActiveMQ Session Task-9] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"3","commandType":"announceVerdict","testScheduleName":"HLA-Verification-2016","sutName":"rtiSimple4etcFra","verdict":"PASSED","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","verdictText":"ok","testcase":"nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 11:34:59,630 INFO  [ActiveMQ Session Task-9] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"3","commandType":"announceVerdict","testScheduleName":"HLA-Verification-2016","sutName":"rtiSimple4etcFra","verdict":"PASSED","sutDir":"C:\/Projekte\/MSG134\/IVCT_Runtime\/IVCTsut\/rtiSimple4etcFra","verdictText":"ok","testcase":"nato.ivct.etc.fr.tc_cs_verification.TC_001_Files_Check"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 15:15:32,949 INFO  [ActiveMQ Session Task-11] nato.ivct.commander.CmdStartTestResultListener - JMS Message received: {"sequence":"1","commandType":"quit"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 15:15:32,949 INFO  [ActiveMQ Session Task-11] nato.ivct.commander.CmdTcStatusListener - JMS Message received: {"sequence":"1","commandType":"quit"} - MDC[principal=admin, cid=XQ4bC5Dr7dg/1]
+2017-11-06 15:15:35,488 INFO  [http-bio-8080-exec-1] org.eclipse.scout.rt.server.clientnotification.ClientNotificationNodeQueue - Interrupted while waiting for client notification messages - MDC[principal=notification-authenticator, cid=59e3813f-d2a6-4ba4-8590-cf28d1a141a2]
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingDeque.pollFirst(LinkedBlockingDeque.java:522)
+	at java.util.concurrent.LinkedBlockingDeque.poll(LinkedBlockingDeque.java:684)
+	at org.eclipse.scout.rt.server.clientnotification.ClientNotificationNodeQueue.getNotifications(ClientNotificationNodeQueue.java:170)
+	at org.eclipse.scout.rt.server.clientnotification.ClientNotificationNodeQueue.consume(ClientNotificationNodeQueue.java:161)
+	at org.eclipse.scout.rt.server.clientnotification.ClientNotificationRegistry.consume(ClientNotificationRegistry.java:112)
+	at org.eclipse.scout.rt.server.clientnotification.ClientNotificationService.getNotifications(ClientNotificationService.java:43)
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.scout.rt.shared.servicetunnel.ServiceUtility.invoke(ServiceUtility.java:55)
+	at org.eclipse.scout.rt.server.ServiceOperationInvoker.invokeInternal(ServiceOperationInvoker.java:102)
+	at org.eclipse.scout.rt.server.ServiceOperationInvoker$1.call(ServiceOperationInvoker.java:63)
+	at org.eclipse.scout.rt.server.ServiceOperationInvoker$1.call(ServiceOperationInvoker.java:1)
+	at org.eclipse.scout.rt.platform.chain.callable.CallableChain$Chain.continueChain(CallableChain.java:203)
+	at org.eclipse.scout.rt.platform.transaction.TransactionProcessor.runTxRequiresNew(TransactionProcessor.java:100)
+	at org.eclipse.scout.rt.platform.transaction.TransactionProcessor.intercept(TransactionProcessor.java:69)
+	at org.eclipse.scout.rt.platform.chain.callable.CallableChain$Chain.continueChain(CallableChain.java:198)
+	at org.eclipse.scout.rt.platform.chain.callable.CallableChain.call(CallableChain.java:146)
+	at org.eclipse.scout.rt.platform.context.RunContext.call(RunContext.java:142)
+	at org.eclipse.scout.rt.server.ServiceOperationInvoker.invoke(ServiceOperationInvoker.java:59)
+	at org.eclipse.scout.rt.server.ServiceTunnelServlet.invokeService(ServiceTunnelServlet.java:205)
+	at org.eclipse.scout.rt.server.ServiceTunnelServlet.doPost(ServiceTunnelServlet.java:160)
+	at org.eclipse.scout.rt.server.ServiceTunnelServlet$2.run(ServiceTunnelServlet.java:120)
+	at org.eclipse.scout.rt.platform.util.concurrent.Callables$1.call(Callables.java:34)
+	at org.eclipse.scout.rt.platform.util.concurrent.Callables$1.call(Callables.java:1)
+	at org.eclipse.scout.rt.platform.chain.callable.CallableChain$Chain.continueChain(CallableChain.java:203)
+	at org.eclipse.scout.rt.platform.transaction.TransactionProcessor.runTxRequiresNew(TransactionProcessor.java:100)
+	at org.eclipse.scout.rt.platform.transaction.TransactionProcessor.runTxRequired(TransactionProcessor.java:129)
+	at org.eclipse.scout.rt.platform.transaction.TransactionProcessor.intercept(TransactionProcessor.java:71)
+	at org.eclipse.scout.rt.platform.chain.callable.CallableChain$Chain.continueChain(CallableChain.java:198)
+	at org.eclipse.scout.rt.platform.chain.callable.CallableChain.call(CallableChain.java:146)
+	at org.eclipse.scout.rt.platform.context.RunContext.call(RunContext.java:142)
+	at org.eclipse.scout.rt.platform.context.RunContext.run(RunContext.java:109)
+	at org.eclipse.scout.rt.server.ServiceTunnelServlet.doPost(ServiceTunnelServlet.java:116)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.eclipse.scout.rt.server.commons.authentication.ServletFilterHelper$1.run(ServletFilterHelper.java:161)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.eclipse.scout.rt.server.commons.authentication.ServletFilterHelper.continueChainAsSubject(ServletFilterHelper.java:155)
+	at org.eclipse.scout.rt.server.commons.authentication.ServiceTunnelAccessTokenAccessController.handle(ServiceTunnelAccessTokenAccessController.java:90)
+	at nato.ivct.gui.server.ServerServletFilter.doFilter(ServerServletFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-06 15:15:35,488 ERROR [http-bio-8080-exec-1] org.eclipse.scout.rt.server.ServiceTunnelServlet - Client=notification-authenticator@127.0.0.1/127.0.0.1 - MDC[]
+java.lang.NullPointerException: null
+	at org.eclipse.scout.rt.platform.BEANS.opt(BEANS.java:55)
+	at org.eclipse.scout.rt.platform.BEANS.get(BEANS.java:41)
+	at org.eclipse.scout.rt.platform.context.RunContext.call(RunContext.java:145)
+	at org.eclipse.scout.rt.platform.context.RunContext.run(RunContext.java:109)
+	at org.eclipse.scout.rt.server.ServiceTunnelServlet.doPost(ServiceTunnelServlet.java:116)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.eclipse.scout.rt.server.commons.authentication.ServletFilterHelper$1.run(ServletFilterHelper.java:161)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.eclipse.scout.rt.server.commons.authentication.ServletFilterHelper.continueChainAsSubject(ServletFilterHelper.java:155)
+	at org.eclipse.scout.rt.server.commons.authentication.ServiceTunnelAccessTokenAccessController.handle(ServiceTunnelAccessTokenAccessController.java:90)
+	at nato.ivct.gui.server.ServerServletFilter.doFilter(ServerServletFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
