@@ -5,8 +5,7 @@
 	"graphics"		:	"/some/icon.png",
 	"tsRunTimeFolder":	"TS_HelloWorld-0.4.1/bin",
 	"tsLibTimeFolder":	"TS_HelloWorld-0.4.1/lib",
-	"tsJarURLs"		:	["file:/C:/Projekte/MSG134/IVCT_Runtime/TestSuites/TS_HelloWorld-0.4.0/lib/TS_HelloWorld-0.4.0.jar"],
-	"dependency"	:	["HLA-BASE-2016"],
+	"dependency"	:	[],
 	"requirements"	:	[
 		{
 			"id"			:	"IR-HW-0001",
