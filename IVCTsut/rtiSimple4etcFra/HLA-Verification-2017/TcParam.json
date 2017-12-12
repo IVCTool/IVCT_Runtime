@@ -1,0 +1,10 @@
+{
+  "sutName"         : "TestFederate",
+  "resultDirectory" : "$(IVCT_SUT_HOME_ID)/rtiSimple4etcFra/HLA-Verification-2017",
+  "fomFiles"        : [
+    { "fileName"    : "$(IVCT_SUT_HOME_ID)/rtiSimple4etcFra/HLA-Verification-2017/MAKsimple1516e.xml" }
+  ],
+  "somFiles"        : [
+    { "fileName"    : "$(IVCT_SUT_HOME_ID)/rtiSimple4etcFra/HLA-Verification-2017/SOM_MAKsimple1516e.xml" }
+  ]
+}
