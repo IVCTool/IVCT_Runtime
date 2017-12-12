@@ -239,3 +239,10 @@ the interactions received
 2017-12-12 13:38:14,659 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
 2017-12-12 13:38:15,659 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 865.2004
 2017-12-12 13:38:16,659 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 891.1564
+2017-12-12 13:38:16,696 INFO [d.f.iosb.testrunner.JMSTestRunner] [TC0002.java:154] TC0002: Hello World from A
+2017-12-12 13:38:17,676 INFO [d.f.iosb.testrunner.JMSTestRunner] [HelloWorldBaseModel.java:436] TC0002: Population: 917.89105
+2017-12-12 13:38:17,696 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:170] TC0002: TEST CASE POSTAMBLE
+2017-12-12 13:38:17,696 ERROR [d.f.iosb.testrunner.JMSTestRunner] [IVCT_RTIambassador.java:345] TC0002: destroyFederationExecution exception=Federates Currently Joined (909146016)
+2017-12-12 13:38:17,696 WARN [d.f.iosb.testrunner.JMSTestRunner] [IVCT_BaseModel.java:136] TC0002: terminateRti: FederatesCurrentlyJoined (ignored)
+2017-12-12 13:38:17,696 INFO [d.f.iosb.testrunner.JMSTestRunner] [AbstractTestCase.java:172] TC0002: TC PASSED
+2017-12-12 13:38:17,712 DEBUG [d.f.iosb.testrunner.JMSTestRunner] [JMSTestRunner.java:184] TC0002: JMSTestRunner:onMessageConsumer:run: after
