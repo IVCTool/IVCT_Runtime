@@ -39,6 +39,6 @@
   <user username="role1" password="<must-be-changed>" roles="role1"/>
 -->
 
-  <user username="hzg" password="reinhard" roles="manager-gui"/>
+  <user username="admin" password="admin" roles="manager-gui"/>
 
 </tomcat-users>
