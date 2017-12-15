@@ -1,5 +1,6 @@
 {
 	"id" 			: 	"HelloWorld-1.0.0",
+	"version"		:	"1.0.0",
 	"name" 			: 	"HelloWorld Tutorial Badge",
 	"description"	:	"This is a simple example for capability badge to test the compliance of an federate to the hello world federation.",
 	"graphics"		:	"/some/icon.png",
@@ -18,4 +19,4 @@
 			"TC"			:	"de.fraunhofer.iosb.tc_helloworld.TC0002"
 		}
 	] 
-}	
+}

@@ -4,7 +4,7 @@
 	"description"	:	"Exercise capability badge to test the compliance of an federate with the entity representation.",
 	"graphics"		:	"/some/icon.png",
 	"tsRunTimeFolder":	"TS_HelloWorld\\TS_HelloWorld\\bin",
-	"dependency"	:	["HLA-BASE-2016"],
+	"dependency"	:	["HLA-BASE-2017"],
 			"requirements"	:	[
 		{
 			"id"			:	"IR-FFI-0001",
