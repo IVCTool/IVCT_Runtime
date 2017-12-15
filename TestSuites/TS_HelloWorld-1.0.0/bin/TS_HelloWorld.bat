@@ -72,7 +72,7 @@ set CMD_LINE_ARGS=%$
 set CLASSPATH=%APP_HOME%\lib\TS_HelloWorld-1.0.0.jar;%APP_HOME%\lib\booster1516.jar;%APP_HOME%\lib\ewert.jar;%APP_HOME%\lib\prti1516e.jar;%APP_HOME%\lib\prticore.jar;%APP_HOME%\lib\sigar.jar;%APP_HOME%\lib\webgui2-protocol.jar;%APP_HOME%\lib\wrapper.jar;%APP_HOME%\lib\TC.lib-1.0.0.jar;%APP_HOME%\lib\MessagingHelpers-1.0.0.jar;%APP_HOME%\lib\slf4j-api-1.7.10.jar;%APP_HOME%\lib\activemq-client-5.12.0.jar;%APP_HOME%\lib\logback-classic-1.1.3.jar;%APP_HOME%\lib\logback-core-1.1.3.jar;%APP_HOME%\lib\jcl-over-slf4j-1.7.10.jar;%APP_HOME%\lib\jul-to-slf4j-1.7.10.jar;%APP_HOME%\lib\log4j-over-slf4j-1.7.10.jar;%APP_HOME%\lib\Command-1.0.0.jar;%APP_HOME%\lib\json-simple-1.1.1.jar;%APP_HOME%\lib\geronimo-jms_1.1_spec-1.1.1.jar;%APP_HOME%\lib\hawtbuf-1.11.jar;%APP_HOME%\lib\geronimo-j2ee-management_1.1_spec-1.0.1.jar;%APP_HOME%\lib\commons-cli-1.3.jar;%APP_HOME%\lib\junit-4.10.jar;%APP_HOME%\lib\hamcrest-core-1.1.jar
 
 @rem Execute TS_HelloWorld
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TS_HELLO_WORLD_OPTS%  -classpath "%CLASSPATH%" de.fraunhofer.iosb.testrunner.JMSTestRunner %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TS_HELLO_WORLD_OPTS%  -classpath "%CLASSPATH%" de.fraunhofer.iosb.tc_helloworld.TC0001 %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
