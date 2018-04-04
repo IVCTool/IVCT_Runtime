@@ -7,7 +7,7 @@
     "tsRunTimeFolder" : "TS_DeadReckoning-0.0.1/bin",
     "tsLibTimeFolder" : "TS_DeadReckoning-0.0.1/lib",
 
-    "dependency"      : ["HLA-BASE-2016"],
+    "dependency"      : ["HLA-BASE-2017"],
     "requirements"    : [
         {
             "id"            : "TS_0001_DeadReckoning",
