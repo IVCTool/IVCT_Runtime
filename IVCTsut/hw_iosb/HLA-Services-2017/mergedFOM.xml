@@ -36,7 +36,6 @@
       <objects>
            <objectClass>
                 <name>HLAobjectRoot</name>
-                <sharing>Neither</sharing>
                 <attribute>
                      <name>HLAprivilegeToDeleteObject</name>
                      <dataType>HLAtoken</dataType>

@@ -73,10 +73,10 @@
 		<unsubscribeObjectClassAttributes section="5.7" isCallback="false" isUsed="false"/>
 		<subscribeInteractionClass section="5.8" isCallback="false" isUsed="true"/>
 		<unsubscribeInteractionClass section="5.9" isCallback="false" isUsed="false"/>
-		<startRegistrationForObjectClass section="5.10" isCallback="true" isUsed="true"/>
-		<stopRegistrationForObjectClass section="5.11" isCallback="true" isUsed="true"/>
-		<turnInteractionsOn section="5.12" isCallback="true" isUsed="true"/>
-		<turnInteractionsOff section="5.13" isCallback="true" isUsed="true"/>
+		<startRegistrationForObjectClass section="5.10" isCallback="true" isUsed="false"/>
+		<stopRegistrationForObjectClass section="5.11" isCallback="true" isUsed="false"/>
+		<turnInteractionsOn section="5.12" isCallback="true" isUsed="false"/>
+		<turnInteractionsOff section="5.13" isCallback="true" isUsed="false"/>
 		<reserveObjectInstanceName section="6.2" isCallback="false" isUsed="true"/>
 		<objectInstanceNameReserved section="6.3" isCallback="true" isUsed="true"/>
 		<releaseObjectInstanceName section="6.4" isCallback="false" isUsed="false"/>
@@ -89,15 +89,15 @@
 		<reflectAttributeValues section="6.11" isCallback="true" isUsed="true"/>
 		<sendInteraction section="6.12" isCallback="false" isUsed="true"/>
 		<receiveInteraction section="6.13" isCallback="true" isUsed="true"/>
-		<deleteObjectInstance section="6.14" isCallback="false" isUsed="true"/>
-		<removeobjectinstance section="6.15" isCallback="true" isUsed="true"/>
+		<deleteObjectInstance section="6.14" isCallback="false" isUsed="false"/>
+		<removeobjectinstance section="6.15" isCallback="true" isUsed="false"/>
 		<localDeleteObjectInstance section="6.16" isCallback="false" isUsed="false"/>
 		<attributesInScope section="6.17" isCallback="true" isUsed="false"/>
 		<attributesOutOfScope section="6.18" isCallback="true" isUsed="false"/>
 		<requestAttributeValueUpdate section="6.19" isCallback="false" isUsed="false"/>
 		<provideAttributeValueUpdate section="6.20" isCallback="true" isUsed="false"/>
-		<turnUpdatesOnForObjectInstance section="6.21" isCallback="true" isUsed="true"/>
-		<turnUpdatesOffForObjectInstance section="6.22" isCallback="true" isUsed="true"/>
+		<turnUpdatesOnForObjectInstance section="6.21" isCallback="true" isUsed="false"/>
+		<turnUpdatesOffForObjectInstance section="6.22" isCallback="true" isUsed="false"/>
 		<requestAttributeTransportationTypeChange section="6.23" isCallback="false" isUsed="false"/>
 		<confirmAttributeTransportationTypeChange section="6.24" isCallback="true" isUsed="false"/>
 		<queryAttributeTransportationType section="6.25" isCallback="false" isUsed="false"/>
@@ -167,7 +167,7 @@
 		<getObjectClassName section="10.7" isCallback="false" isUsed="false"/>
 		<getKnownObjectClassHandle section="10.8" isCallback="false" isUsed="false"/>
 		<getObjectInstanceHandle section="10.9" isCallback="false" isUsed="false"/>
-		<getObjectInstanceName section="10.10" isCallback="false" isUsed="true"/>
+		<getObjectInstanceName section="10.10" isCallback="false" isUsed="false"/>
 		<getAttributeHandle section="10.11" isCallback="false" isUsed="true"/>
 		<getAttributeName section="10.12" isCallback="false" isUsed="false"/>
 		<getUpdateRateValue section="10.13" isCallback="false" isUsed="false"/>
@@ -199,7 +199,7 @@
 		<enableInteractionRelevanceAdvisorySwitch section="10.39" isCallback="false" isUsed="false"/>
 		<disableInteractionRelevanceAdvisorySwitch section="10.40" isCallback="false" isUsed="false"/>
 		<evokeCallback section="10.41" isCallback="false" isUsed="false"/>
-		<evokeMultipleCallbacks section="10.42" isCallback="false" isUsed="true"/>
+		<evokeMultipleCallbacks section="10.42" isCallback="false" isUsed="false"/>
 		<enableCallbacks section="10.43" isCallback="false" isUsed="false"/>
 		<disableCallbacks section="10.44" isCallback="false" isUsed="false"/>
 	</serviceUtilization>

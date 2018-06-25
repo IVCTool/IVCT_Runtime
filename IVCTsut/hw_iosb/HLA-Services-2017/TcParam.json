@@ -1,6 +1,6 @@
 {
-  "federationName"  : "FEDERATION_TEST",
-  "sutName"         : "TestFederate",
+  "federationName"  : "HelloWorld",
+  "sutName"         : "A",
   "rtiAddress"      : "10.1.4.29",
   "rtiPort"         : "8989",
   "testDuration"    : "60",

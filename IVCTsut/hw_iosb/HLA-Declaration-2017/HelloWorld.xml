@@ -36,7 +36,6 @@
    <objects>
       <objectClass>
          <name>HLAobjectRoot</name>
-         <sharing>Neither</sharing>
          <attribute>
             <name>HLAprivilegeToDeleteObject</name>
             <dataType>HLAtoken</dataType>
@@ -78,7 +77,6 @@
    <interactions>
       <interactionClass>
          <name>HLAinteractionRoot</name>
-         <sharing>Neither</sharing>
          <interactionClass>
             <name>Communication</name>
             <sharing>PublishSubscribe</sharing>
