@@ -1,0 +1,14 @@
+{
+  "federationName"  : "HelloWorld",
+  "sutName"         : "A",
+  "rtiAddress"      : "10.1.4.29",
+  "rtiPort"         : "8989",
+  "testDuration"    : "40",
+  "resultDirectory" : "$(IVCT_SUT_HOME_ID)/hw_iosb/HLA-Object-2017",
+  "fomFiles"        : [
+    { "fileName"    : "$(IVCT_SUT_HOME_ID)/hw_iosb/HLA-Object-2017/HelloWorld.xml" }
+  ],
+  "somFiles"        : [
+    { "fileName"    : "$(IVCT_SUT_HOME_ID)/hw_iosb/HLA-Object-2017/HelloWorldSOM.xml" }
+  ]
+}
