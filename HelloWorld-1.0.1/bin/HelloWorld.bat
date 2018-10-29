@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\HelloWorld-1.0.1.jar;%APP_HOME%\lib\prti1516e.jar;%APP_HOME%\lib\booster1516.jar;%APP_HOME%\lib\ewert.jar;%APP_HOME%\lib\prticore.jar;%APP_HOME%\lib\sigar.jar;%APP_HOME%\lib\webgui2-protocol.jar;%APP_HOME%\lib\wrapper.jar;%APP_HOME%\lib\slf4j-api-1.7.10.jar
+set CLASSPATH=%APP_HOME%\lib\HelloWorld-1.0.1.jar;%APP_HOME%\lib\IEEE1516e-1.0.1.jar;%APP_HOME%\lib\slf4j-api-1.7.10.jar;%APP_HOME%\lib;%LRC_CLASSPATH%
 
 @rem Execute HelloWorld
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %HELLO_WORLD_OPTS%  -classpath "%CLASSPATH%" de.fraunhofer.iosb.helloworld.HelloWorld %CMD_LINE_ARGS%
