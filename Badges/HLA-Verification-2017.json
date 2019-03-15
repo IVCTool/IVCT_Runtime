@@ -3,7 +3,7 @@
 	"version"		:	"1.0.0",
 	"name" 			: 	"HLA Verification Test 2017",
 	"description"	:	"This test case is equivalent to the FCTT_NG configuration verification step.",
-	"graphics"		:	"/some/icon.png",
+	"graphics"		:	"HLA-Verification-2017.png",
 	"tsRunTimeFolder":	"TS_CS_Verification-1.0.0/bin",
 	"tsLibTimeFolder":	"TS_CS_Verification-1.0.0/lib",
 	"dependency"	:	[],

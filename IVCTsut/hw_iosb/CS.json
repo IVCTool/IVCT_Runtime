@@ -1,1 +1,8 @@
-{"badge":["HelloWorld-1.0.1","HLA-BASE-2017","TS_HLA_EncodingRulesTester-2017"],"vendor":"Fraunhofer IOSB","description":"HelloWorld system under federate for IVCT demonstration","id":"hw_iosb"}
+{
+    "id": "hw_iosb"
+    "name": "Hello World Demo Federate"
+    "description": "HelloWorld system under federate for IVCT demonstration",
+    "badge": ["HelloWorld-1.0.1","HLA-BASE-2017","TS_HLA_EncodingRulesTester-2017"],
+    "vendor": "Fraunhofer IOSB",
+    "version": "1.0.1"
+}

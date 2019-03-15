@@ -3,7 +3,7 @@
 	"version"		:	"1.0.0",
 	"name" 			: 	"HLA Services Test 2017",
 	"description"	:	"This badge verifies that the federate uses only the services specified in its SOM.",
-	"graphics"		:	"/some/icon.png",
+	"graphics"		:	"HLA-Services-2017.png",
 	"tsRunTimeFolder":	"TS_HLA_Services-1.0.0/bin",
 	"tsLibTimeFolder":	"TS_HLA_Services-1.0.0/lib",
 	"dependency"	:	[],
@@ -17,6 +17,6 @@
 			"id"			:	"IR-SOM-0020",
 			"description"	:	"SuT shall not implement/use any HLA service that is not described as implemented/used in CS/SOM",
 			"TC"			:	"nato.ivct.etc.fr.tc_hla_services.TC_001_Services_Check"
-		}		
+		}
 	]
 }
