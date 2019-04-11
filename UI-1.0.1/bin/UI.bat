@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\UI-1.0.1.jar;%APP_HOME%\lib\Command-1.0.1.jar;%APP_HOME%\lib\MessagingHelpers-1.0.1.jar;%APP_HOME%\lib\activemq-client-5.12.0.jar;%APP_HOME%\lib\logback-classic-1.1.3.jar;%APP_HOME%\lib\jcl-over-slf4j-1.7.10.jar;%APP_HOME%\lib\jul-to-slf4j-1.7.10.jar;%APP_HOME%\lib\log4j-over-slf4j-1.7.10.jar;%APP_HOME%\lib\slf4j-api-1.7.10.jar;%APP_HOME%\lib\json-simple-1.1.1.jar;%APP_HOME%\lib\logback-core-1.1.3.jar;%APP_HOME%\lib\junit-4.10.jar;%APP_HOME%\lib\geronimo-jms_1.1_spec-1.1.1.jar;%APP_HOME%\lib\hawtbuf-1.11.jar;%APP_HOME%\lib\geronimo-j2ee-management_1.1_spec-1.0.1.jar;%APP_HOME%\lib\hamcrest-core-1.1.jar;%APP_HOME%\lib
+set CLASSPATH=%APP_HOME%\lib\UI-1.0.1.jar;%APP_HOME%\lib\Command-1.0.1.jar;%APP_HOME%\lib\MessagingHelpers-1.0.1.jar;%APP_HOME%\lib\activemq-client-5.14.5.jar;%APP_HOME%\lib\logback-classic-1.1.3.jar;%APP_HOME%\lib\jcl-over-slf4j-1.7.10.jar;%APP_HOME%\lib\jul-to-slf4j-1.7.10.jar;%APP_HOME%\lib\log4j-over-slf4j-1.7.10.jar;%APP_HOME%\lib\slf4j-api-1.7.13.jar;%APP_HOME%\lib\json-simple-1.1.1.jar;%APP_HOME%\lib\logback-core-1.1.3.jar;%APP_HOME%\lib\junit-4.10.jar;%APP_HOME%\lib\geronimo-jms_1.1_spec-1.1.1.jar;%APP_HOME%\lib\hawtbuf-1.11.jar;%APP_HOME%\lib\geronimo-j2ee-management_1.1_spec-1.0.1.jar;%APP_HOME%\lib\hamcrest-core-1.1.jar;%APP_HOME%\lib
 
 @rem Execute UI
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %UI_OPTS%  -classpath "%CLASSPATH%" de.fraunhofer.iosb.ivct.CmdLineTool %CMD_LINE_ARGS%
