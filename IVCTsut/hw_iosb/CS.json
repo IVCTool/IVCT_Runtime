@@ -1,8 +1,8 @@
 {
-    "id": "hw_iosb"
-    "name": "Hello World Demo Federate"
-    "description": "HelloWorld system under federate for IVCT demonstration",
-    "badge": ["HelloWorld-1.0.1","HLA-BASE-2017","TS_HLA_EncodingRulesTester-2017"],
+    "badge": ["HLA-Encoding-2017", "HLA-Services-2017", "HLA-Object-2017", "HLA-Verification-2017", "HLA-BASE-2017", "HLA-Declaration-2017", "HelloWorld-2017"],
     "vendor": "Fraunhofer IOSB",
-    "version": "1.0.1"
+    "name": "hw_iosb",
+    "description": "HelloWorld system under federate for IVCT demonstration",
+    "id": "hw_iosb",
+    "version": null
 }

@@ -1,11 +1,11 @@
 {
 	"id" 			: 	"HLA-Encoding-2017",
-	"version"		:	"1.0.1",
+	"version"		:	"2.0.0",
 	"name" 			: 	"HLA_EncodingRulesTester Test 2017",
 	"description"	:	"This is a test to verify whether the HLA encoding rules are being used correctly.",
 	"graphics"		:	"HLA-Encoding-2017.png",
-	"tsRunTimeFolder":	"TS_HLA_EncodingRulesTester-1.0.1/bin",
-	"tsLibTimeFolder":	"TS_HLA_EncodingRulesTester-1.0.1/lib",
+	"tsRunTimeFolder":	"TS_HLA_EncodingRulesTester-2.0.0/bin",
+	"tsLibTimeFolder":	"TS_HLA_EncodingRulesTester-2.0.0/lib",
 	"dependency"	:	[],
 	"requirements"	:	[
 		{

@@ -1,6 +1,6 @@
 {
 	"id" 			: 	"HLA-BASE-2017",
-	"version"		:	"1.0.0",
+	"version"		:	"2.0.0",
 	"name" 			: 	"HLA Basic Test 2017",
 	"description"	:	"Basic CS/SOM and Best Practices compliance",
 	"tsRunTimefolder":	"",
