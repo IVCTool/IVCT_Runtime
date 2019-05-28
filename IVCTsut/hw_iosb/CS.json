@@ -1,8 +1,10 @@
 {
-    "badge": ["HLA-Encoding-2017", "HLA-Services-2017", "HLA-Object-2017", "HLA-Verification-2017", "HLA-BASE-2017", "HLA-Declaration-2017", "HelloWorld-2017"],
+    "badge": ["HLA-BASE-2017", "HelloWorld-2017"],
     "vendor": "Fraunhofer IOSB",
     "name": "hw_iosb",
     "description": "HelloWorld system under federate for IVCT demonstration",
     "id": "hw_iosb",
-    "version": null
+    "settingsDesignator" : "crcAddress=localhost:8989",
+    "federationName"     : "HelloWorld",
+    "version": ""
 }
