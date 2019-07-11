@@ -2,6 +2,7 @@
 	"id" 			: 	"HLA-BASE-2017",
 	"version"		:	"2.0.0",
 	"name" 			: 	"HLA Basic Test 2017",
+	"graphics"		:	"HLA-Base-2017.png",
 	"description"	:	"Basic CS/SOM and Best Practices compliance",
 	"graphics"		:	"HLA-BASE-2017.png",
 	"tsRunTimefolder":	"",
