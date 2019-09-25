@@ -1,5 +1,7 @@
 # IVCT Runtime
 
+*WARNING:* This repository is depricated and should only be used for version 1.0
+
 This is example configuration for a recommended IVCT deployment structure. The required elements are:
 - A folder for the SuT configuration files
 - A folder for the badge definition files
