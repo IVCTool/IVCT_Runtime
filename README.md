@@ -1,6 +1,6 @@
 # IVCT Runtime
 
-*WARNING:* This repository is depricated and should only be used for version 1.0
+*WARNING:* This repository is depricated and should only be used up to version 2.0.1
 
 This is example configuration for a recommended IVCT deployment structure. The required elements are:
 - A folder for the SuT configuration files
